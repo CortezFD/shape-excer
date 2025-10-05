@@ -6,9 +6,11 @@ body{
     h1 { 
         font-size: 250%;
     }
-#mainh {
+header h1 {
     color:steelblue;
     font-style: italic;
+    font-size: 130%;
+    top:-10px
 }
 
 .blue-text {
