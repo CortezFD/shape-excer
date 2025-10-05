@@ -13,5 +13,6 @@ header h1 {
 .linksb {
     color: steelblue;
 }
-a.bold {font-weight: bold;
+a.bold-link {
+    font-weight: bold;
 }
