@@ -8,8 +8,14 @@ h1 {
 img{float: left; margin-right: 1em;}
 main li {text-bold: true;}
 
+h3 {
+    color:maroon;
+
+}
 footer p {
     font-size: 75%;
     text-align: center;
 }
 #aside2 {color:maroon; line-height: 1.5em;}
+
+ul > li:hover{ color:maroon; }
