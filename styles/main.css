@@ -3,7 +3,7 @@ body {font-family:Arial; font-size: 100%;}
 h1 {
     color:steelblue;
     font-style: italic;
-    font-size: 200%;
+    font-size: 1.5em;
 }
 img{float: left; margin-right: 1em;}
 main li {text-bold: true;}
@@ -12,3 +12,4 @@ footer p {
     font-size: 75%;
     text-align: center;
 }
+#aside2 {color:maroon; line-height: 1.5em;}
