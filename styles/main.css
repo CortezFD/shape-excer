@@ -3,7 +3,7 @@ body {font-family:Arial; font-size: 100%;}
 h1 {
     color:steelblue;
     font-style: italic;
-    font-size: 1.5em;
+    font-size: 2.0em;
 }
 img{float: left; margin-right: 1em;}
 main li {text-bold: true;}
@@ -18,4 +18,4 @@ footer p {
 }
 #aside2 {color:maroon; line-height: 1.5em;}
 
-ul > li:hover{ color:maroon; }
+aside a:hover{ color:maroon; }
