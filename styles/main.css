@@ -6,3 +6,9 @@
     font-size: 200%;
 }
 img{float: left; margin-right: 1em;}
+main li {text-bold: true;}
+
+footer p {
+    font-size: 75%;
+    text-align: center;
+}
