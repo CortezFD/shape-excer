@@ -26,7 +26,8 @@ footer p {
 #aside2 {color:maroon; line-height: 1.5em;}
 
 aside a:hover{ color:maroon; }
-aside ul li a{ color:steelblue;}
+aside ul li a{ color:steelblue;
+border: 2px;}
 
 footer {
     background-color: steelblue;
