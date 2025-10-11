@@ -47,8 +47,7 @@ html {
     width: 90%;
 }
 header {
-    border-bottom: 3px;
-    margin-bottom: 0em;
+   border: 2px solid steelblue;
 }
 #h2move {
     text-align: left;
@@ -56,4 +55,10 @@ header {
 }
 h2 {
     padding: 1em;
+}
+p{
+    padding: 0.5em;
+}
+a hef {
+    padding:0.5em;
 }
