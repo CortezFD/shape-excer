@@ -28,7 +28,9 @@ footer p {
 
 aside a:hover{ color:maroon; }
 aside ul li a{ color:steelblue;
-border: 2px;}
+border: 2px;
+border-color: steelblue;
+padding-left:0.2}
 
 footer {
     background-color: steelblue;
@@ -53,4 +55,7 @@ header {
 h2 {
     text-align: left;
 
+}
+h2 p h3 {
+    padding: 0.5em;
 }
