@@ -38,11 +38,11 @@ html {
     border: 2px;
     border-style: solid;
     border-color: steelblue;
-    width: 100%;
+    width: 90%;
 }
 header {
       border: 2px;
     border-style: solid;
     border-color: steelblue;
-    width:fit-content;
+    width:auto;
 }
