@@ -47,11 +47,8 @@ html {
     width: 90%;
 }
 header {
-      border: 2px;
-    border-style: solid;
-        border-color: steelblue;
-        padding: 0.2em;
-        margin-bottom: 0.2em;
+    border-bottom: 3px;
+    margin-bottom: 0em;
 }
 #h2move {
     text-align: left;
