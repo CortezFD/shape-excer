@@ -38,6 +38,7 @@ html {
     border: 2px;
     border-style: solid;
     border-color: steelblue;
+    margin: 1em auto;
     width: 90%;
 }
 header {
