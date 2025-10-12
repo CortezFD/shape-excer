@@ -59,10 +59,13 @@ h2 {
     padding: 1em;
 }
 p{
-    padding: 0.5em;
+    padding:1em;
 }
  a {
-    padding:0.5em;
+    padding: 1em;
+}
+blockquote {
+    padding: 1em;
 }
 aside {
     border: 2px solid steelblue;
