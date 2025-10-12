@@ -39,7 +39,6 @@ footer {
     width: 150%;
 margin: 0;
 padding: 0;
-box-sizing: border-box;
 
 }
 html {
@@ -50,6 +49,8 @@ html {
     width: 90%;
 }
 header {
+    border: 5px;
+    border-style: solid;
      border-top: none;
     border-left: none;
     border-right: none;
