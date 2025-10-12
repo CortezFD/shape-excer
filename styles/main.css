@@ -26,9 +26,7 @@ footer p {
 aside a:hover{ color:maroon; }
 aside ul li a{ color:steelblue;
 border: 3px;
-border-color: steelblue;
-padding-left: 1em;
-padding-left: 30px;}
+border-color: steelblue;}
 footer {
     background-color: steelblue;
     color:white;
@@ -65,7 +63,6 @@ p{
     padding-left:1em;
 }
  a {
-    padding: 1em;
 }
 blockquote {
     padding:2em;
