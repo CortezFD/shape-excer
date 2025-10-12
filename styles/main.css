@@ -71,8 +71,9 @@ blockquote {
 aside {
     border: 2px solid steelblue;
     border-radius: 25px;
-    width:80%;
+    width:90%;
     margin:0 auto;
+    padding-bottom: 1em;
 }
 li {
     padding: 0.2em;
