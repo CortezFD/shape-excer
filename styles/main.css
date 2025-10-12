@@ -49,7 +49,7 @@ html {
 }
 header {
    border-bottom: 2px solid steelblue;
-   width : 100%;
+   width : 100vw;
    
 }
 #h2move {
