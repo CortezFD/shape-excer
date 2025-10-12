@@ -41,6 +41,7 @@ html {
     border-style: solid;
     border-color: steelblue;
     margin: 1em auto;
+    margin-top: -1em;
     width: 90%;
     width: 700px;
 }
@@ -71,11 +72,10 @@ blockquote {
 }
 aside {
     border: 2px solid steelblue;
-    width: 90%;
+    width:100%;
 }
 li {
     padding: 0.2em;
 }
 h3 {
-    padding-left:0.5em;
 }
