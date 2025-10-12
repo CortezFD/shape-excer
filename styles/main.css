@@ -41,7 +41,7 @@ html {
     margin-top: -1em;
     width: 90%;
     width: 700px;
-     box-shadow: -10px 0 15px black, 10px 0 15px black;
+    box-shadow: -10px 0 15px black, 10px 0 15px black, 0 10px 15px black;
 }
 header {
    border-bottom: 2px solid steelblue;
