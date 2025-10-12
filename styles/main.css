@@ -12,6 +12,8 @@ h1 {
 }
 img{float: left; margin-right: 1em;
     padding-top: -0.5em;
+    margin-top: -10px;
+    margin-left: -10px;
 }
 
 h3 a {
