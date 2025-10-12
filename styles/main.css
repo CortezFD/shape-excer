@@ -30,7 +30,7 @@ aside a:hover{ color:maroon; }
 aside ul li a{ color:steelblue;
 border: 3px;
 border-color: steelblue;
-padding-left:1;
+padding-left:2em;
 padding-left: 30px;}
 footer {
     background-color: steelblue;
