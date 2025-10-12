@@ -51,6 +51,7 @@ header {
    border-bottom: 2px solid steelblue;
    width : 100%;
    box-sizing: border-box;
+   padding: 1em;
    
 }
 #h2move {
