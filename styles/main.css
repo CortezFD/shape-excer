@@ -48,7 +48,7 @@ header {
    width : 100%;
    box-sizing: border-box;
    padding: 1em;
-   background-image:linear-gradient(to top, steelblue 10% , white 100%);
+   background-image:linear-gradient(to top, lightsteelblue, white);
 }
 #h2move {
     text-align: left;
