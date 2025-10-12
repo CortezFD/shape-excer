@@ -70,7 +70,8 @@ blockquote {
 aside {
     border: 2px solid steelblue;
     border-radius: 25px;
-    width:100%;
+    width:80%;
+    margin:0 auto;
 }
 li {
     padding: 0.2em;
