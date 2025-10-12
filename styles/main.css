@@ -50,7 +50,8 @@ html {
 }
 header {
    border-bottom: 2px solid steelblue;
-
+   width : 100%;
+   
 }
 #h2move {
     text-align: left;
