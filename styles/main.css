@@ -65,10 +65,11 @@ p{
  a {
 }
 blockquote {
-    padding-left: 1.5em;
+    padding-left: 2.5em;
 }
 aside {
     border: 2px solid steelblue;
+    border-radius: 25pxl;
     width:100%;
 }
 li {
