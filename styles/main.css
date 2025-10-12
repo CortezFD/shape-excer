@@ -20,6 +20,7 @@ h3 a {
 footer p {
     font-size: 75%;
     text-align: center;
+    margin: 0 auto;
 }
 #aside2 {color:maroon; line-height: 1.5em;}
 
