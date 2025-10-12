@@ -49,7 +49,7 @@ header {
    width : 100%;
    box-sizing: border-box;
    padding: 1em;
-   background-image:linear-gradient(to top, steelblue, white);
+   background-image:linear-gradient(to top, steelblue 50%, white);
 }
 #h2move {
     text-align: left;
