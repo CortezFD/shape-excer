@@ -15,7 +15,7 @@ img{float: left; margin-right: 1em;
 
 h3 a {
     color:maroon;
-    padding: 0.5em;
+    padding: 1em;
 }
 footer p {
     font-size: 75%;
@@ -54,9 +54,10 @@ header {
 #h2move {
     text-align: left;
     clear: both;
+    padding-left: -0.3em;
 }
 h2 {
-    padding: 1em;
+    padding:0.7em;
 }
 p{
     padding: 0.5em;
@@ -66,11 +67,15 @@ p{
     padding: 1em;
 }
 blockquote {
-    padding:0.5em;
+    padding:2em;
 }
 aside {
     border: 2px solid steelblue;
+    width: 90%;
 }
 li {
     padding: 0.2em;
+}
+h3 {
+    padding-left: 1em;
 }
