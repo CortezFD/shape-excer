@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {font-family:Arial; font-size: 100%;
- margin: 1em auto;
-padding-bottom: 1em;}
+body {font-family:Arial; font-size: 100%;}
     
 h1 {
     color:steelblue;
