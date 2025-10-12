@@ -65,9 +65,11 @@ p{
     padding: 1em;
 }
 blockquote {
-    padding: 1em;
+    padding:0.5em;
 }
 aside {
     border: 2px solid steelblue;
-
+}
+li {
+    padding: 0.5em;
 }
