@@ -68,7 +68,7 @@ blockquote {
     padding-left: 3em;
 }
 aside {
-    flex: 1;
+    flex: 25%;
     border: 2px solid steelblue;
     border-radius: 25px;
     width:95%;
@@ -83,5 +83,5 @@ li {
     padding: 0.7em;
 }
 main {
-    flex: 3;
+    flex: 75%;
 }
