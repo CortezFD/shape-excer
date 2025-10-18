@@ -85,5 +85,6 @@ li {
 }
 main {
     display: flex;
+    flex: 75%;
     order: 1;
 }
