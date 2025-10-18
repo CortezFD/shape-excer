@@ -83,5 +83,5 @@ li {
     padding: 0.7em;
 }
 main {
-    flex: 75%;
+    display: flex;
 }
