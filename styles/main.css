@@ -37,14 +37,12 @@ footer {
     padding-top: 0.5em;
 }
 html {
-    border:3px;
-    border-style: solid;
-    border-color: steelblue;
+
     margin: 1em auto;
     margin-top: -1em;
     width: 100%;
     width: 700px;
-    box-shadow: -10px 0 15px black, 10px 0 15px black, 0 10px 15px black;
+
 }
 header {
    border-bottom: 2px solid steelblue;
