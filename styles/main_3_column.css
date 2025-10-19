@@ -90,6 +90,9 @@ li {
     padding: 0.7em;
 }
 main {
+    display: flex;
+    flex-direction: column;
+
     order: 2;
     width: 30.33%;
     float: left ;
