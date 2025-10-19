@@ -80,6 +80,14 @@ li {
 #padh2 {
     padding: 0.7em;
 }
+aside {
+   
+    border: 2px solid steelblue;
+    border-radius: 25px;
+    margin:0 auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
 main {
     
     order: 2;
@@ -101,4 +109,9 @@ color:maroon; padding-top: 0.5em;
     width: 30%;
     float: left;
     margin-right: 1%;
+}
+.right1 {
+    width: 30%;
+    float: right;
+    margin-left: 1%;
 }
