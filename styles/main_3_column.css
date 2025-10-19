@@ -105,3 +105,8 @@ color:maroon; padding-top: 0.5em;
 }
 
 
+.left1 {
+    width: 30%;
+    float: left;
+    margin-right: 1%;
+}
