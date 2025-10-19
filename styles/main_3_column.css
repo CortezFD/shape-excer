@@ -91,7 +91,7 @@ li {
 main {
     width: 36%;
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     flex-basis: 50%;
 }
 nav {
