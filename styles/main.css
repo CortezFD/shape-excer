@@ -82,6 +82,6 @@ li {
 #padh2 {
     padding: 0.7em;
 }
-main {
- 
+main { 
+ flex: left;
 }
