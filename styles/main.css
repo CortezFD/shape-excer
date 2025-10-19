@@ -2,7 +2,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {font-family:Arial; font-size:100%; width: 100%;
+body {font-family:Arial; width: 100%;
 font-size: calc(100%+1vw);}
     
 h1 {
