@@ -73,7 +73,7 @@ blockquote {
     padding-left: 3em;
 }
 #asr {
-    width: 30%;
+    width: 33.33%;
     float: left;
     border: 2px solid steelblue;
     border-radius: 25px;
@@ -89,7 +89,7 @@ li {
     padding: 0.7em;
 }
 main {
-    width: 36%;
+    width: 33.33%;
 }
 nav {
     padding-bottom: 0.5em;
@@ -102,7 +102,7 @@ nav {
 color:maroon; padding-top: 0.5em;
 }
 #asl {
-    width: 30%;
+    width: 33.33%;
     float: right;
     border: 2px solid steelblue;
     border-radius: 25px;
