@@ -113,3 +113,7 @@ color:maroon; padding-top: 0.5em;
     float: right;
     margin-left: 1%;
 }
+#asl, #asr, main {
+    float: left;
+    box-sizing: border-box;
+}
