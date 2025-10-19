@@ -90,6 +90,8 @@ li {
 }
 main {
     width: 36%;
+    display: flex;
+    flex-basis: 50%;
 }
 nav {
     padding-bottom: 0.5em;
@@ -109,4 +111,7 @@ color:maroon; padding-top: 0.5em;
     margin:0 auto;
     margin-bottom: 1em;
     margin-top: 1em;
+}
+aside {
+    flex-basis: 25%;
 }
