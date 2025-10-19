@@ -28,7 +28,7 @@ footer p {
     text-align: center;
     margin: 0 auto;
 }
-#aside2 {color:maroon; line-height: 1.5em;}
+#aside2 {color:maroon; }
 
 aside a:hover{ color:maroon; }
 aside ul li a{ color:steelblue;
