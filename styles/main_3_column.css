@@ -74,7 +74,7 @@ blockquote {
 }
 #asr {
     order:3;
-    width: 33.33%;
+    width: 30.33%;
     float: left;
     border: 2px solid steelblue;
     border-radius: 25px;
@@ -91,7 +91,7 @@ li {
 }
 main {
     order: 2;
-    width: 33.33%;
+    width: 30.33%;
     float: left ;
 }
 nav {
@@ -106,7 +106,7 @@ color:maroon; padding-top: 0.5em;
 }
 #asl {
     order: 1;
-    width: 33.33%;
+    width: 30.33%;
     float: left;
     border: 2px solid steelblue;
     border-radius: 25px;
