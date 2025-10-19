@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body {font-family:Arial; width: 100%;
-font-size: calc(100%+1vw);}
+ font-size: 2vw;}
     
 h1 {
     color:steelblue;
