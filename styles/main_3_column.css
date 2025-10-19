@@ -119,7 +119,7 @@ color:maroon; padding-top: 0.5em;
 }
 main {
     display: flex;
-    flex-wrap: nowrap; /* Ensures items are in a single row */
+    flex-wrap: wrap; /* Ensures items are in a single row */
 }
 
 /* First column (First Aside) */
