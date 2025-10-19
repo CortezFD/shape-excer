@@ -105,6 +105,7 @@ color:maroon; padding-top: 0.5em;
     width: 30%;
     float: left;
     margin-right: 1%;
+    height: fit-content;
 }
 .right1 {
     width: 30%;
