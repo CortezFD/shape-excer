@@ -117,3 +117,25 @@ color:maroon; padding-top: 0.5em;
     width: 38%;
     float: left;
 }
+main {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures items are in a single row */
+}
+
+/* First column (First Aside) */
+.left1 {
+    flex: 1; /* Takes up 1 part of the available space */
+    order: 1; /* Ensures it's in the first position */
+}
+
+/* Main content (Middle Column) */
+.maincont {
+    flex: 2; /* Takes up more space than the asides */
+    order: 2; /* Ensures it's in the middle */
+}
+
+/* Third column (Second Aside) */
+.right1 {
+    flex: 1; /* Takes up 1 part of the available space */
+    order: 3; /* Ensures it's in the third position */
+}
