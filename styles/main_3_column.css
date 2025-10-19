@@ -90,9 +90,7 @@ li {
 }
 main {
     width: 36%;
-    display: flex;
-    flex-direction:row;
-    flex-basis: 50%;
+  float:left
 }
 nav {
     padding-bottom: 0.5em;
