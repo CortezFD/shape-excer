@@ -73,6 +73,7 @@ aside {
     width:95%;
     margin:0 auto;
     margin-bottom: 1em;
+    float: right;
 }
 li {
     padding: 0.2em;
