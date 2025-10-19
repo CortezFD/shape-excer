@@ -74,7 +74,7 @@ blockquote {
 }
 #asr {
     width: 180px;
-    float: right;
+    float: left;
     border: 2px solid steelblue;
     border-radius: 25px;
     margin:0 auto;
@@ -104,7 +104,7 @@ color:maroon; padding-top: 0.5em;
 }
 #asl {
     width: 180px;
-    float: left;
+    float: right;
     border: 2px solid steelblue;
     border-radius: 25px;
     margin:0 auto;
