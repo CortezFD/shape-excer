@@ -72,15 +72,7 @@ p{
 blockquote {
     padding-left: 3em;
 }
-aside {
-    width: 40%;
-    float: left;
-    border: 2px solid steelblue;
-    border-radius: 25px;
-    margin:0 auto;
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
+
 li {
     padding: 0.2em;
 }
