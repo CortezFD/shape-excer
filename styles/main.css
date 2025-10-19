@@ -2,8 +2,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {font-family:Arial; width: 100%;
- font-size: 1.5vw;}
+body {font-family:Arial; width: calc(100% - 40px); margin: auto;
+ font-size: calc(100% + 1.5vw);}
     
 h1 {
     color:steelblue;
