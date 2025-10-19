@@ -74,7 +74,8 @@ aside {
     border-radius: 25px;
     margin:0 auto;
     margin-bottom: 1em;
-    padding-top: 1em;
+    margin-top: 1em;
+    border-top: 1em;;
 }
 li {
     padding: 0.2em;
