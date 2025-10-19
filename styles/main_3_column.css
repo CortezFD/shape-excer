@@ -2,7 +2,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {font-family:Arial; width: 100%; margin: auto;
+body {font-family:Arial; width: 964px; margin: auto;
  font-size:1.5vw;}
     
 h1 {
@@ -73,7 +73,7 @@ blockquote {
     padding-left: 3em;
 }
 #asr {
-    width: 30%;
+    width: 180px;
     float: right;
     border: 2px solid steelblue;
     border-radius: 25px;
@@ -89,7 +89,7 @@ li {
     padding: 0.7em;
 }
 main {
-    width: 36%;
+    width: 600px;
   float:left
 }
 nav {
@@ -103,7 +103,7 @@ nav {
 color:maroon; padding-top: 0.5em;
 }
 #asl {
-    width: 30%;
+    width: 180px;
     float: left;
     border: 2px solid steelblue;
     border-radius: 25px;
