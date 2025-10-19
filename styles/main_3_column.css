@@ -74,7 +74,7 @@ blockquote {
 }
 #asr {
     order:3;
-    width: 30.33%;
+    width: 20%;
     float: left;
     border: 2px solid steelblue;
     border-radius: 25px;
@@ -90,11 +90,8 @@ li {
     padding: 0.7em;
 }
 main {
-    display: flex;
-    flex-direction: column;
-
-    order: 2;
-    width: 30.33%;
+    
+    width: 40%;
     float: left ;
 }
 nav {
@@ -108,15 +105,11 @@ nav {
 color:maroon; padding-top: 0.5em;
 }
 #asl {
-    order: 1;
-    width: 30.33%;
+    width: 20%;
     float: left;
     border: 2px solid steelblue;
     border-radius: 25px;
     margin:0 auto;
     margin-bottom: 1em;
     margin-top: 1em;
-}
-aside {
-    flex-basis: 25%;
 }
