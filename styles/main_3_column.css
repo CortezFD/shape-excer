@@ -113,7 +113,7 @@ color:maroon; padding-top: 0.5em;
     float: right;
     margin-left: 1%;
 }
-#asl, #asr, main {
+.maincont {
+    width: 38%;
     float: left;
-    box-sizing: border-box;
 }
