@@ -182,7 +182,7 @@ position: relative
 }
 #bord {
     float: right;
-    border: 2px solid steelblue;
+    border: 2px solid white;
     border-radius: 25px;
     margin:0 auto;
     margin-bottom: 1em;
