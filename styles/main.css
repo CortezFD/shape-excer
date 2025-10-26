@@ -95,3 +95,36 @@ main {
 nav {
     padding-bottom: 0.5em;
 }
+.navbar ul li a {
+	text-align: center;
+	Display: block;
+	width: 100%;
+	padding: 1em 2.39em;
+	text-decoration: none;
+	background-color: steelblue;
+	justify-content: space-evenly;
+	font-style: normal;
+}
+#navsubmenu ul{
+	list-style: none;
+	position: relative;
+}
+#navsubmenu ul li {
+	float: left;
+}
+#navsubmenu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#navsubmenu ul ul li{
+	float: none;
+}
+#navsubmenu ul li:hover > ul {
+	display: block;
+}
+#navsubmenu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
