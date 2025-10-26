@@ -185,3 +185,8 @@ position: relative
 .clr {
     color: white;
 }
+#bord ul li a {
+    border: 2px solid white;
+    border-radius: 25px;
+    
+}
