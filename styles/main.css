@@ -181,10 +181,8 @@ position: relative
 	float: left;
 }
 #bord {
-    width: 30%;
     float: right;
-    border: 2px ;
-    color: white;
+    border: 2px solid steelblue;
     border-radius: 25px;
     margin:0 auto;
     margin-bottom: 1em;
