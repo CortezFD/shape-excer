@@ -186,6 +186,7 @@ position: relative
     color: white;
 }
 #bord ul li {
+    width: 30%;
     border: 2px solid white;
     border-radius: 25px;
 
