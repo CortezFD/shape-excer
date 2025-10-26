@@ -85,6 +85,7 @@ main {
 }
 nav {
     padding-bottom: 0.5em;
+    flex-wrap: wrap;
 }
 .navbar ul li a {
 	text-align: center;
