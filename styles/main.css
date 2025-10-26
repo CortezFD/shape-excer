@@ -83,85 +83,84 @@ main {
     width: 66%;
     float: left;
 }
-.menu,
-.navbar ul {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--primary-color);
-	list-style: none;
-	padding: 0;
-	margin: 0;
+nav {
+    padding-bottom: 0.5em;
+    flex-wrap: wrap;
 }
-
-.menu li,
-.navbar ul li {
-	position: relative;
-	flex: 1;
-}
-
-.menu li a,
 .navbar ul li a {
-	display: block;
 	text-align: center;
+	Display: block;
 	width: 100%;
-	padding: 1em 2em;
+	padding: 1em 2.39em;
 	text-decoration: none;
-	background-color: var(--primary-color);
-	color: white;
+	background-color: steelblue;
+	justify-content: space-evenly;
 	font-style: normal;
 }
-
-.menu li a:hover,
-.navbar ul li a:hover {
-	background-color: var(--accent-color);
-	color: var(--dark);
+#navsubmenu ul{
+	list-style: none;
+	position: relative;
 }
-
-a.current {
-	color: #f6bb73;
-	text-decoration: none;
+#navsubmenu ul li {
+	float: left;
 }
-
-a.current:hover {
-	font-style: normal;
-}
-
-.submenu,
 #navsubmenu ul ul {
+	display: none;
 	position: absolute;
 	top: 100%;
-	left: 0;
-	background-color: var(--primary-color);
-	display: none;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	min-width: 180px;
 }
-
-.menu li:hover > .submenu,
+#navsubmenu ul ul li{
+	float: none;
+}
 #navsubmenu ul li:hover > ul {
 	display: block;
 }
-
-.submenu li a,
-#navsubmenu ul ul li a {
-	padding: 0.75em 1.5em;
-	text-align: left;
+#navsubmenu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.menu li {
+	flex: 1;
+	
+}
+	
+.menu {
+	display: flex;
 	background-color: var(--primary-color);
-	color: white;
+	padding: 0;
+	margin: 0;
 }
 
-.submenu li a:hover,
-#navsubmenu ul ul li a:hover {
-	background-color: var(--accent-color);
-	color: var(--dark);
-}
+.menu li:has(.submenu) {
+	position: relative;
 
-footer {
+	& small {
+		margin-left: .25em;
+	}
+	&:hover > .submenu {
+		display: block;
+	}
+}
+ul {
+	list-style-type: none;
+}
+.submenu {
+	position: absolute;
+	left: 0;       
 	background-color: var(--primary-color);
-	color: white;
-	text-align: center;
-	padding: 1em;
+	display: none;}
+a.current {
+	 color: #f6bb73;
+	 text-decoration: none;
+}
+a.current:hover{
+	font-style: normal;
+}
+.navbar ul{
+	list-style-type: none;
+position: relative
+}
+.navbar ul li {
+	float: left;
 }
