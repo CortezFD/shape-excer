@@ -180,3 +180,12 @@ position: relative
 .navbar ul li {
 	float: left;
 }
+.bord {
+    width: 30%;
+    float: right;
+    border: 2px solid steelblue;
+    border-radius: 25px;
+    margin:0 auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
