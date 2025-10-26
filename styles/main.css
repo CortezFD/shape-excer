@@ -127,3 +127,47 @@ nav {
 	display: block;
 	clear: both;
 }
+.menu li {
+	flex: 1;
+	
+}
+	
+.menu {
+	display: flex;
+	background-color: var(--primary-color);
+	padding: 0;
+	margin: 0;
+}
+
+.menu li:has(.submenu) {
+	position: relative;
+
+	& small {
+		margin-left: .25em;
+	}
+	&:hover > .submenu {
+		display: block;
+	}
+}
+ul {
+	list-style-type: none;
+}
+.submenu {
+	position: absolute;
+	left: 0;       
+	background-color: var(--primary-color);
+	display: none;}
+a.current {
+	 color: #f6bb73;
+	 text-decoration: none;
+}
+a.current:hover{
+	font-style: normal;
+}
+.navbar ul{
+	list-style-type: none;
+position: relative
+}
+.navbar ul li {
+	float: left;
+}
