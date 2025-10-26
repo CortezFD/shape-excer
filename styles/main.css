@@ -168,15 +168,7 @@ ul {
 	left: 0;       
 	background-color: var(--primary-color);
 	display: none;}
-    .navbar{
-       &ul {list-style-type: none; margin: 0; padding: 0;
-       }
-a.current {
-	 color: #f6bb73;
-	 text-decoration: none;
-     border: 2px white solid; border-radius:10px; text-decoration: none
-}
-}
+  
 a.current:hover{
 	font-style: normal;
 }
