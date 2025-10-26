@@ -180,7 +180,7 @@ position: relative
 .navbar ul li {
 	float: left;
 }
-.bord {
+#bord {
     width: 30%;
     float: right;
     border: 2px ;
