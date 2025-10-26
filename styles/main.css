@@ -183,7 +183,8 @@ position: relative
 .bord {
     width: 30%;
     float: right;
-    border: 2px solid steelblue;
+    border: 2px ;
+    color: white;
     border-radius: 25px;
     margin:0 auto;
     margin-bottom: 1em;
