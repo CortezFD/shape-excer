@@ -83,84 +83,85 @@ main {
     width: 66%;
     float: left;
 }
-nav {
-    padding-bottom: 0.5em;
-    flex-wrap: wrap;
-}
-.navbar ul li a {
-	text-align: center;
-	Display: block;
-	width: 100%;
-	padding: 1em 2.39em;
-	text-decoration: none;
-	background-color: steelblue;
-	justify-content: space-evenly;
-	font-style: normal;
-}
-#navsubmenu ul{
-	list-style: none;
-	position: relative;
-}
-#navsubmenu ul li {
-	float: left;
-}
-#navsubmenu ul ul {
-	display: none;
-	position: absolute;
-	top: 100%;
-}
-#navsubmenu ul ul li{
-	float: none;
-}
-#navsubmenu ul li:hover > ul {
-	display: block;
-}
-#navsubmenu > ul::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-.menu li {
-	flex: 1;
-	
-}
-	
-.menu {
+.menu,
+.navbar ul {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: var(--primary-color);
+	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.menu li:has(.submenu) {
+.menu li,
+.navbar ul li {
 	position: relative;
+	flex: 1;
+}
 
-	& small {
-		margin-left: .25em;
-	}
-	&:hover > .submenu {
-		display: block;
-	}
-}
-ul {
-	list-style-type: none;
-}
-.submenu {
-	position: absolute;
-	left: 0;       
+.menu li a,
+.navbar ul li a {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding: 1em 2em;
+	text-decoration: none;
 	background-color: var(--primary-color);
-	display: none;}
-a.current {
-	 color: #f6bb73;
-	 text-decoration: none;
-}
-a.current:hover{
+	color: white;
 	font-style: normal;
 }
-.navbar ul{
-	list-style-type: none;
-position: relative
+
+.menu li a:hover,
+.navbar ul li a:hover {
+	background-color: var(--accent-color);
+	color: var(--dark);
 }
-.navbar ul li {
-	float: left;
+
+a.current {
+	color: #f6bb73;
+	text-decoration: none;
+}
+
+a.current:hover {
+	font-style: normal;
+}
+
+.submenu,
+#navsubmenu ul ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: var(--primary-color);
+	display: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	min-width: 180px;
+}
+
+.menu li:hover > .submenu,
+#navsubmenu ul li:hover > ul {
+	display: block;
+}
+
+.submenu li a,
+#navsubmenu ul ul li a {
+	padding: 0.75em 1.5em;
+	text-align: left;
+	background-color: var(--primary-color);
+	color: white;
+}
+
+.submenu li a:hover,
+#navsubmenu ul ul li a:hover {
+	background-color: var(--accent-color);
+	color: var(--dark);
+}
+
+footer {
+	background-color: var(--primary-color);
+	color: white;
+	text-align: center;
+	padding: 1em;
 }
