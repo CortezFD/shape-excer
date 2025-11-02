@@ -192,4 +192,5 @@ position: relative
 #bord {
     border: 2px solid white;
     border-radius: 25px;
+    background-color: steelblue;
 }
