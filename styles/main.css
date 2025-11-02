@@ -99,7 +99,6 @@ main {
     float: left;
 }
 nav {
-    padding-bottom: 0.5em;
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
