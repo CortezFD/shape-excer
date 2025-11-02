@@ -189,7 +189,7 @@ position: relative
     border-radius: 25px;
 
 }
-.current {
+#bord {
     border: 2px solid white;
     border-radius: 25px;
 }
