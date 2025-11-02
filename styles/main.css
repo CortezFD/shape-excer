@@ -192,6 +192,7 @@ position: relative
     border: 2px solid white;
     border-radius: 25px;
     background-color: steelblue;
+    padding: 0.5em;
 }
 .navbar {
     background-color: steelblue;
