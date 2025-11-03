@@ -107,13 +107,17 @@ nav {
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
+    
+}
+.navbar {
+    background-color: steelblue;
 }
 .navbar ul li a {
 	Display: block;
 	width: 100%;
 	padding: 0.7em;
 	text-decoration: none;
-	background-color: steelblue;
+	
 	justify-content: space-evenly;
 	font-style: normal;
 }
@@ -148,6 +152,7 @@ nav {
 }
 .menu li a {
     display:block;
+    background-color: steelblue;
 }
 	
 .menu {
@@ -295,11 +300,4 @@ position: relative
 
 #checkbox-toggle:checked ~ .menu {
     display: flex;       /* opens menu downwards */
-}
-.menu {
-  position: static !important;   /* stops absolute positioning pushing it wide */
-  width: fit-content !important; /* keeps width tight to text */
-  background-color: transparent !important; /* removes blue background area */
-  margin: 0 auto;
-  padding: 0;
 }
