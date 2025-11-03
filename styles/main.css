@@ -139,6 +139,7 @@ nav {
 
 .menu {
     position: absolute;
+    left: 0;
     display: none;
     flex-direction: column;
     background: transparent;
