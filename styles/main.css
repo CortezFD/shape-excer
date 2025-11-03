@@ -2,198 +2,118 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {font-family:Arial; width: 100%; margin: auto;
- font-size:1.2vw;}
-    
-h1 {
-    color:steelblue;
-    font-style: italic;
-    font-size: 2.0em;
-  
-}
-img{float: left; margin-right: 1em;
-    padding-top: -0.5em;
-    margin-top: -10px;
-    margin-left: -10px;
-     width: 100%; 
-    max-width: 120px; 
-    min-width: 100px;
+body {
+    font-family: Arial;
+    width: 100%;
+    margin: auto;
+    font-size: 1.2vw;
 }
 
-h3 a {
-    color:maroon;
-    padding: 1em;
-}
-footer p {
-    text-align: center;
-    margin: 0 auto;
-}
-#aside2 {color:maroon; padding-top: 0.5em;}
-
-aside a:hover{ color:maroon; }
-aside ul li a{ color:steelblue;
-border: 3px;
-border-color: steelblue;}
-footer {
-    background-color: steelblue;
-    color:white;
-    height: 50px;
-    padding-top: 0.5em;
-    clear:both;
-}
-html {
-
-    margin: 1em auto;
-    margin-top: -1em;
-    width: 800px;
-
-}
-header {
-   border-bottom: 2px solid steelblue;
-   width : 100%;
-   box-sizing: border-box;
-   padding: 2em;
-   background-image:linear-gradient(to top, lightsteelblue, white);
-}
-#h2move {
-    text-align: left;
-    clear: both;
-    padding-left: -0.3em;
-    padding-top: 0.7em;
-}
-h2 {
-    padding-left: 0.7em;
-}
-p{
-    padding: 0.5em;
-    padding-left:1em;
-}
-
-blockquote {
-    padding-left: 3em;
+/* Mobile-first layout */
+main {
+    width: 100%;
 }
 aside {
-    width: 30%;
-    float: right;
+    width: 100%;
     border: 2px solid steelblue;
     border-radius: 25px;
-    margin:0 auto;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin: 1em auto;
     padding-right: 0.5em;
-    ul{
-        list-style-type: disc;
-    }
-    
-    
 }
 
-li {
-}
-
-#padh2 {
-    padding: 0.7em;
-}
-main {
-    width: 66%;
-    float: left;
-}
+/* Mobile dropdown nav */
 nav {
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 0 auto;
+    width: 100%;
+    background-color: steelblue;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: none; /* menu hidden by default on small screens */
+    flex-direction: column;
 }
 .navbar ul li a {
-	text-align: center;
-	Display: block;
-	width: 100%;
-	padding: 0.7em;
-	text-decoration: none;
-	background-color: steelblue;
-	justify-content: space-evenly;
-	font-style: normal;
-}
-#navsubmenu ul{
-	list-style: none;
-	position: relative;
-}
-#navsubmenu ul li {
-	float: left;
-}
-#navsubmenu ul ul {
-	display: none;
-	position: absolute;
-	top: 100%;
-}
-#navsubmenu ul ul li{
-	float: none;
-}
-#navsubmenu ul li:hover > ul {
-	display: block;
-}
-#navsubmenu > ul::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-.menu li {
-	flex: 1;
-	
-}
-	
-.menu {
-	display: flex;
-    flex-wrap: wrap;
-	background-color: var(--primary-color);
-	padding: 0;
-	margin: 0;
-}
-
-.menu li:has(.submenu) {
-	position: relative;
-
-	& small {
-		margin-left: .25em;
-	}
-	&:hover > .submenu {
-		display: block;
-	}
-}
-ul {
-	list-style-type: none;
-}
-.submenu {
-	position: absolute;
-	left: 0;       
-	background-color: var(--primary-color);
-	display: none;}
-  
-a.current:hover{
-	font-style: normal;
-}
-.navbar ul{
-	list-style-type: none;
-position: relative
-}
-.navbar ul li {
-	float: left;
-}
-
-.clr {
+    display: block;
+    width: 100%;
+    padding: 0.7em;
+    text-decoration: none;
+    background-color: steelblue;
     color: white;
+    text-align: center;
 }
-#bord ul li {
-    width: 30%;
-    border: 2px solid white;
-    border-radius: 25px;
 
+/* Show menu when checkbox checked */
+#checkbox-toggle:checked ~ .navbar ul {
+    display: flex;
 }
-#bord {
-    border: 2px solid white;
-    border-radius: 25px;
-    background-color: steelblue;
-    padding: 0.5em;
+
+/* Submenu styles */
+.submenu {
+    display: none;
+    flex-direction: column;
 }
-.navbar {
+.menu li:hover .submenu {
+    display: flex;
+}
+
+/* General element styles */
+h1 {
+    color: steelblue;
+    font-style: italic;
+    font-size: 2em;
+}
+img {
+    float: left;
+    margin-right: 1em;
+    width: 100%;
+    max-width: 120px;
+    min-width: 100px;
+}
+footer {
     background-color: steelblue;
+    color: white;
+    height: 50px;
+    padding-top: 0.5em;
+    clear: both;
+    text-align: center;
+}
+html {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ======================
+   MEDIA QUERIES
+====================== */
+
+/* 👇 Medium screens: aside floats right */
+@media screen and (min-width: 768px) {
+    main {
+        width: 66%;
+        float: left;
+    }
+    aside {
+        width: 30%;
+        float: right;
+        margin-top: 1em;
+    }
+
+    /* Dropdown still used here */
+}
+
+/* 👇 Wide screens: horizontal menu */
+@media screen and (min-width: 1024px) {
+    .navbar ul {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navbar ul li {
+        float: none;
+        flex: 1;
+    }
+    #checkbox-toggle,
+    .menu-btn {
+        display: none; /* hide mobile-toggle */
+    }
 }
