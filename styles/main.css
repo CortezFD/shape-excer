@@ -108,6 +108,7 @@ nav {
     width: auto;
     text-align: left;
     margin: 0;
+    background-color: steelblue;
 }
 
 .navbar ul li a {
