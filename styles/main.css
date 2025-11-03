@@ -140,6 +140,9 @@ nav {
 	flex: 1;
 	
 }
+.menu li a {
+    display:block;
+}
 	
 .menu {
     position: absolute;
