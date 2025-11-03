@@ -2,100 +2,57 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {font-family:Arial; width: 100%; margin: auto;
- font-size:1.2vw;}
-    
-h1 {
-    color:steelblue;
-    font-style: italic;
-    font-size: 2.0em;
-  
+
+body {
+    font-family: Arial;
+    width: 100%;
+    margin: auto;
+    font-size: 1.2vw;
 }
-img{float: left; margin-right: 1em;
-    padding-top: -0.5em;
-    margin-top: -10px;
-    margin-left: -10px;
-     width: 100%; 
-    max-width: 85px; 
+
+img {
+    float: left;
+    margin: -10px 1em 0 -10px;
+    width: 100%;
+    max-width: 85px;
     min-width: 80px;
 }
 
-h3 a {
-    color:maroon;
-    padding: 1em;
+h1 {
+    color: steelblue;
+    font-style: italic;
+    font-size: 2em;
 }
-footer p {
-    text-align: center;
-    margin: 0 auto;
-}
-#aside2 {color:maroon; padding-top: 0.5em;}
 
-aside a:hover{ color:maroon; }
-aside ul li a{ color:steelblue;
-border: 3px;
-border-color: steelblue;}
-footer {
-    background-color: steelblue;
-    color:white;
-    height: 50px;
-    padding-top: 0.5em;
-    clear:both;
-}
-html {
-
-    margin: 1em auto;
-    margin-top: -1em;
-    width: 800px;
-
-}
-header {
-   border-bottom: 2px solid steelblue;
-   width : 100%;
-   box-sizing: border-box;
-   padding: 2em;
-   background-image:linear-gradient(to top, lightsteelblue, white);
-}
-#h2move {
-    text-align: left;
-    clear: both;
-    padding-left: -0.3em;
-    padding-top: 0.7em;
-}
 h2 {
     padding-left: 0.7em;
 }
-p{
-    padding: 0.5em;
-    padding-left:1em;
+
+h3 a {
+    color: maroon;
+    padding: 1em;
+}
+
+p {
+    padding: 0.5em 1em;
 }
 
 blockquote {
     padding-left: 3em;
 }
-aside {
-    width: 30%;
-    float: right;
-    border: 2px solid steelblue;
-    border-radius: 25px;
-    margin:0 auto;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    padding-right: 0.5em;
-    ul{
-        list-style-type: disc;
-    }
-    
-    
+
+html {
+    margin: 1em auto -1em auto;
+    width: 800px;
 }
 
-li {
-}
-.navbar{
+header {
+    border-bottom: 2px solid steelblue;
     width: 100%;
+    padding: 2em;
+    background-image: linear-gradient(to top, lightsteelblue, white);
 }
-#padh2 {
-    padding: 0.7em;
-}
+
 main {
     width: 66%;
     float: left;
@@ -103,201 +60,130 @@ main {
     display: flex;
     flex-direction: column;
 }
-nav {
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 0 auto;
-    
+
+aside {
+    width: 30%;
+    float: right;
+    border: 2px solid steelblue;
+    border-radius: 25px;
+    margin: 1em auto;
+    padding-right: 0.5em;
 }
-.navbar {
+
+aside ul {
+    list-style-type: disc;
+}
+
+aside a:hover {
+    color: maroon;
+}
+
+footer {
     background-color: steelblue;
+    color: white;
+    height: 50px;
+    padding-top: 0.5em;
+    clear: both;
+    text-align: center;
 }
-.navbar ul li a {
-	Display: block;
-	width: 100%;
-	padding: 0.7em;
-	text-decoration: none;
-	
-	justify-content: space-evenly;
-	font-style: normal;
-}
-#navsubmenu ul{
-	list-style: none;
-	position: relative;
-}
-#navsubmenu ul li {
-}
-#navsubmenu ul ul {
-	display: none;
-	position: absolute;
-	top: 100%;
-}
-#navsubmenu ul ul li{
-	float: none;
-}
-#navsubmenu ul li:hover > ul {
-	display: block;
-}
-#navsubmenu > ul::after {
-	content: "";
-	display: block;
-	clear: both;
-}
+
 .navbar {
+    width: 100%;
+    background-color: steelblue;
+    display: block;
     position: relative;
 }
-.menu li {
-	flex: 1;
-	
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
+
+.navbar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    position: relative;
+}
+
+.navbar ul li {
+    width: auto;
+    text-align: left;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.navbar ul li a {
+    display: block;
+    width: 100%;
+    padding: 0.7em;
+    text-decoration: none;
+}
+
+#checkbox-toggle {
+    display: none;
+}
+
+.menu-btn {
+    display: block;
+    padding: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-btn::after {
+    content: "\2630";
+}
+
+#checkbox-toggle:checked ~ .menu-btn::after {
+    content: "\2716";
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    background: transparent;
+    width: auto;
+}
+
+#checkbox-toggle:checked ~ .menu {
+    display: flex;
+}
+
+.menu li {
+    width: 100%;
+}
+
 .menu li a {
-    display:block;
+    display: block;
+    width: 100%;
     background-color: steelblue;
 }
-	
-.menu {
-    position: absolute;
-	display: none;
-    flex-direction: column;
-    left: 0;
-    
-	background-color: var(--primary-color);
-	padding: 0;
-	margin: 0;
-}
 
-.menu li:has(.submenu) {
-	position: relative;
-
-	& small {
-		margin-left: .25em;
-	}
-	&:hover > .submenu {
-		display: block;
-	}
-}
-ul {
-	list-style-type: none;
-}
 .submenu {
-	position: absolute;
-	left: 0;       
-	background-color: var(--primary-color);
-	display: none;}
-  
-a.current:hover{
-	font-style: normal;
-}
-.navbar ul{
-	list-style-type: none;
-position: relative
-}
-.navbar ul li {
-	float: left;
+    display: none;
+    flex-direction: column;
+    padding-left: 1em;
 }
 
-.clr {
-    color: white;
+.menu li:hover > .submenu {
+    display: flex;
 }
-#bord ul li {
-    width: 30%;
-    border: 2px solid white;
-    border-radius: 25px;
 
-}
 #bord {
     border: 2px solid white;
     border-radius: 25px;
     background-color: steelblue;
     padding: 0.5em;
 }
-.navbar {
-    background-color: steelblue;
-}
-.navbar .menu {
-    display: none;
-}
-#checkbox-toggle {
-    display: none;
-}
-#checkbox-toggle:checked ~ .menu { display: block; }
-#checkbox-toggle:checked ~ .menu-btn::after{ 
-    content: "\2716"}
-    .menu-btn::after {
-    content: "\2630"}
-    .menu-btn { display: block;
-         padding: 1em; color: white; }
-#checkbox-toggle:checked + .menu-btn + .menu {
-	display: block;
-}
-/* RESET floats + flex so menu drops vertically */
-.navbar ul li {
-    float: none;
-    width: 100%;
+
+#bord ul li {
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 25px;
 }
 
-/* ensure vertical menu */
-.menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    position: static; /* stop absolute positioning pushing it around */
-}
-
-/* each menu item full width */
-.menu li {
-    width: 100%;
-    flex: none;
-}
-
-/* submenu vertical instead of flying out */
-.submenu {
-    position: static;
-    display: none;
-    flex-direction: column;
-    padding-left: 1em;
-}
-
-/* show submenu when hovering parent */
-.menu li:hover > .submenu {
-    display: flex;
-}
-
-/* ✅ hamburger works */
-#checkbox-toggle:checked ~ .menu {
-    display: flex;
-}
-.navbar {
-    display: block;
-}
-
-.menu {
-    display: none;
-    flex-direction: column;
-    width: auto;         /* stops full-width blue bar */
-    padding-left: 0;
-    margin-left: 0;
-    background-color: transparent; /* removes blue background */
-}
-
-.navbar ul {
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.navbar ul li {
-    float: none;
-    width: auto;
-    text-align: left;    /* moves text to left */
-    margin: 0;
-    padding: 8px 0;
-}
-
-.menu li a {
-    display: block;
-    width: 100%;
-}
-
-#checkbox-toggle:checked ~ .menu {
-    display: flex;       /* opens menu downwards */
+.clr {
+    color: white;
 }
