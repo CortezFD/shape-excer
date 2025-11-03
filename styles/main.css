@@ -200,8 +200,8 @@ position: relative
 #checkbox-toggle {
     display: none;
 }
-#checkbox-toggle:checked ~ .menu { display: block; }
-#checkbox-toggle:checked ~ .menu-btn::after{ 
+#menu-toggle:checked ~ .menu { display: block; }
+#menu-toggle:checked ~ .menu-btn::after{ 
     content: "\2716"}
     .menu-btn::after {
     content: "\2630"}
