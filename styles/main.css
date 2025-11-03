@@ -84,7 +84,9 @@ footer {
     clear: both;
     text-align: center;
 }
-
+ul .menu {
+    padding-left: -5em;
+}
 .navbar {
     width: 100%;
     background-color: steelblue;
