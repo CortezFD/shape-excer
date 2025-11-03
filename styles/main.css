@@ -296,3 +296,10 @@ position: relative
 #checkbox-toggle:checked ~ .menu {
     display: flex;       /* opens menu downwards */
 }
+.menu {
+  position: static !important;   /* stops absolute positioning pushing it wide */
+  width: fit-content !important; /* keeps width tight to text */
+  background-color: transparent !important; /* removes blue background area */
+  margin: 0 auto;
+  padding: 0;
+}
