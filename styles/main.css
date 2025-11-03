@@ -90,7 +90,9 @@ aside {
 
 li {
 }
-
+.navbar{
+    width: 100%;
+}
 #padh2 {
     padding: 0.7em;
 }
