@@ -197,6 +197,9 @@ position: relative
 .navbar {
     background-color: steelblue;
 }
+.menu {
+    display: none;
+}
 #menu-toggle {
     display: none;
 }
