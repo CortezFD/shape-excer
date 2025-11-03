@@ -62,8 +62,7 @@ main {
 }
 
 aside {
-    width: 30%;
-    float: right;
+    float: left;
     border: 2px solid steelblue;
     border-radius: 25px;
     margin: 1em auto;
