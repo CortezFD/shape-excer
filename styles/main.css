@@ -136,6 +136,9 @@ nav {
 	display: block;
 	clear: both;
 }
+.navbar {
+    position: relative;
+}
 .menu li {
 	flex: 1;
 	
