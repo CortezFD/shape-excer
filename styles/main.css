@@ -43,7 +43,7 @@ blockquote {
 
 html {
     margin: 1em auto -1em auto;
-    width: 800px;
+    width: 300px;
 }
 
 header {
@@ -188,6 +188,9 @@ nav {
     color: white;
 }
 @media (min-width: 768px) {
+    html {
+        width: 800px;
+    }
 
   main {
     width: 65%;
