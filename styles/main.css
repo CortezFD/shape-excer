@@ -142,6 +142,7 @@ nav {
 }
 	
 .menu {
+    position: absolute;
 	display: none;
     flex-direction: column;
 	background-color: var(--primary-color);
