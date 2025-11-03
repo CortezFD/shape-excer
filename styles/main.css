@@ -142,8 +142,8 @@ nav {
 }
 	
 .menu {
-	display: flex;
-    flex-wrap: wrap;
+	display: none;
+    flex-direction: column;
 	background-color: var(--primary-color);
 	padding: 0;
 	margin: 0;
