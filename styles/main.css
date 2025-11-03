@@ -226,3 +226,40 @@ position: relative
 #checkbox-toggle:checked + .menu-btn + .menu {
 	display: block;
 }
+/* RESET floats + flex so menu drops vertically */
+.navbar ul li {
+    float: none;
+    width: 100%;
+}
+
+/* ensure vertical menu */
+.menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: static; /* stop absolute positioning pushing it around */
+}
+
+/* each menu item full width */
+.menu li {
+    width: 100%;
+    flex: none;
+}
+
+/* submenu vertical instead of flying out */
+.submenu {
+    position: static;
+    display: none;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+/* show submenu when hovering parent */
+.menu li:hover > .submenu {
+    display: flex;
+}
+
+/* ✅ hamburger works */
+#checkbox-toggle:checked ~ .menu {
+    display: flex;
+}
