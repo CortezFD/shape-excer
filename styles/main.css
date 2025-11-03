@@ -145,7 +145,10 @@ nav {
     background: transparent;
     width: auto;
 }
-
+#nav_menu ul ul li ul {
+position: absolute;
+left: 100%;
+top: 0; }
 #checkbox-toggle:checked ~ .menu {
     display: flex;
 }
