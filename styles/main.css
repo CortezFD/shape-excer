@@ -200,7 +200,7 @@ position: relative
 .navbar .menu {
     display: none;
 }
-#menu-toggle {
+#checkbox-toggle {
     display: none;
 }
 #checkbox-toggle:checked ~ .menu { display: block; }
