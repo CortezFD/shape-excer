@@ -187,3 +187,54 @@ nav {
 .clr {
     color: white;
 }
+@media (min-width: 768px) {
+
+  main {
+    width: 65%;
+    float: left;
+  }
+
+  aside {
+    width: 30%;
+    float: right;
+    margin-top: 1em;
+  }
+
+  .menu {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    position: static;                 
+    width: 100%;
+    background-color: steelblue;
+  }
+
+  .menu li {
+    width: auto;
+    flex: 1;
+    text-align: center;
+  }
+
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+  }
+
+  .menu-btn,
+  #checkbox-toggle {
+    display: none;
+  }
+
+  .submenu {
+    position: absolute;
+    background-color: steelblue;
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu li:hover > .submenu {
+    display: flex;
+  }
+}
