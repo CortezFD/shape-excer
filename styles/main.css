@@ -263,3 +263,37 @@ position: relative
 #checkbox-toggle:checked ~ .menu {
     display: flex;
 }
+.navbar {
+    display: block;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    width: auto;         /* stops full-width blue bar */
+    padding-left: 0;
+    margin-left: 0;
+    background-color: transparent; /* removes blue background */
+}
+
+.navbar ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.navbar ul li {
+    float: none;
+    width: auto;
+    text-align: left;    /* moves text to left */
+    margin: 0;
+    padding: 8px 0;
+}
+
+.menu li a {
+    display: block;
+    width: 100%;
+}
+
+#checkbox-toggle:checked ~ .menu {
+    display: flex;       /* opens menu downwards */
+}
