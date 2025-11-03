@@ -208,3 +208,5 @@ position: relative
     content: "\2716"}
     .menu-btn::after {
     content: "\2630"}
+    .menu-btn { display: block;
+         padding: 1em; color: white; }
