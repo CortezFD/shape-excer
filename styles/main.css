@@ -54,7 +54,6 @@ header {
 }
 
 main {
-    width: 66%;
     float: left;
     clear: left;
     display: flex;
