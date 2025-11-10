@@ -26,6 +26,7 @@ h1 {
 
 h2 {
     padding-left: 0.7em;
+    color: maroon;
 }
 
 h3 a {
@@ -192,6 +193,7 @@ nav {
     color: black;
 padding-left: 0.5em;
 text-decoration: none;}
+
 
 @media (min-width: 668px) {
     html {
