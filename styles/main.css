@@ -87,7 +87,9 @@ footer {
     clear: both;
     text-align: center;
 }
-
+#mainhead {
+    color:black
+}
 .navbar {
     width: 100%;
     background-color: steelblue;
