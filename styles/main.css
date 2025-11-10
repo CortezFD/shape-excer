@@ -154,7 +154,9 @@ nav {
 #checkbox-toggle:checked ~ .menu {
     display: flex;
 }
-
+p a {
+    color: maroon;
+}
 .menu li {
     width: 100%;
 }
