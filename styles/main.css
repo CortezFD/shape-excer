@@ -188,6 +188,9 @@ nav {
 .clr {
     color: white;
 }
+#str {
+    color: black;
+padding-left: 0.5em;}
 @media (min-width: 668px) {
     html {
         width: 800px;
