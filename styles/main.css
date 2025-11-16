@@ -20,10 +20,11 @@ img {
 header {
     font-size: 1.5em;
 }
-
+#shapeuptext {
+    text-decoration: none;
+}
 h1 {
     color: steelblue;
-    font-style: italic;
     font-size: 2em;
 }
 
