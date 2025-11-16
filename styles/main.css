@@ -70,7 +70,7 @@ main {
 aside {
     float: left;
     border: 2px solid steelblue;
-    border-radius: 2z5px;
+    border-radius: 25px;
     margin: 1em auto;
     padding-right: 0.5em;
 }
