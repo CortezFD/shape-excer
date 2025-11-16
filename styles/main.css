@@ -181,12 +181,12 @@ p a {
 }
 
 #bord {
+    text-decoration: none;
     border: 1px solid white;
     border-radius: 25px;
     background-color: steelblue;
     padding: 0.5em;
     text-align: center;
-    text-decoration: solid;
 }
 
 #bord ul li {
