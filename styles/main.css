@@ -204,6 +204,7 @@ p a {
 }
 #str {
     color: black;
+    padding-top: 1em;
 padding-left: 0.5em;
 text-decoration: none;}
 
