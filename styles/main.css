@@ -21,7 +21,7 @@ header {
     font-size: 1.5em;
 }
 #shapeuptext {
-    text-decoration: none;
+    text-decoration: italic;
 }
 h1 {
     color: steelblue;
