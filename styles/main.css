@@ -186,6 +186,7 @@ p a {
     background-color: steelblue;
     padding: 0.5em;
     text-align: center;
+    text-decoration: solid;
 }
 
 #bord ul li {
