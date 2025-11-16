@@ -17,12 +17,25 @@ img {
     max-width: 110px;
     min-width: 60px;
 }
+
+
+@font-face {
+    font-family: "American Captain";
+    src: url("../fonts/American Captain.ttf") format("truetype");
+}
+
+header h1 {
+    font-family: "American Captain", Arial, sans-serif;
+}
+
 header {
     font-size: 1.5em;
 }
+
 #shapeuptext {
     font-style: italic;
 }
+
 h1 {
     color: steelblue;
     font-size: 2em;
@@ -50,9 +63,11 @@ html {
     margin: 1em auto -1em auto;
     width: 300px;
 }
-ul{
+
+ul {
     list-style-type: square;
 }
+
 header {
     border-bottom: 2px solid steelblue;
     width: 100%;
@@ -68,19 +83,48 @@ main {
 }
 
 aside {
-    float: left;
+    float: right;
     border: 2px solid steelblue;
     border-radius: 25px;
     margin: 1em auto;
-    padding-right: 0.5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-   
+    padding: 1em;
+    width: 90%;
 }
 
-aside ul {
-    list-style-type: disc;
+
+figure.stress-figure {
+    float: left;
+    width: 150px;
+    margin: 0 1em 0 0;
 }
+
+figure.stress-figure img {
+    float: left;
+    width: 100%;
+    max-width: 130px;
+}
+
+figure.stress-figure figcaption {
+    font-size: 0.85em;
+    text-align: center;
+    padding-top: 0.3em;
+}
+
+
+aside ul li {
+    list-style: none;
+    padding-left: 32px;
+    margin-bottom: 0.7em;
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    background-size: 22px;
+}
+
+aside ul li:nth-child(1) { background-image: url("../images/run-icon.png"); }
+aside ul li:nth-child(2) { background-image: url("../images/stretch-icon.png"); }
+aside ul li:nth-child(3) { background-image: url("../images/strength-icon.png"); }
+aside ul li:nth-child(4) { background-image: url("../images/cardio-icon.png"); }
+aside ul li:nth-child(5) { background-image: url("../images/yoga-icon.png"); }
 
 aside a:hover {
     color: maroon;
@@ -94,9 +138,11 @@ footer {
     clear: both;
     text-align: center;
 }
+
 #mainhead {
-    color:black
+    color: black;
 }
+
 .navbar {
     width: 100%;
     background-color: steelblue;
@@ -161,9 +207,11 @@ nav {
 #checkbox-toggle:checked ~ .menu {
     display: flex;
 }
+
 p a {
     color: maroon;
 }
+
 .menu li {
     width: 100%;
 }
@@ -203,63 +251,64 @@ p a {
 .clr {
     color: white;
 }
+
 #str {
     color: black;
     padding-top: 0.5em;
-padding-left: 0.5em;
-text-decoration: none;}
-
+    padding-left: 0.5em;
+    text-decoration: none;
+}
 
 @media (min-width: 668px) {
     html {
         width: 800px;
     }
 
-  main {
-    width: 65%;
-    float: left;
-  }
+    main {
+        width: 65%;
+        float: left;
+    }
 
-  aside {
-    width: 30%;
-    float: right;
-    margin-top: 1em;
-  }
+    aside {
+        width: 30%;
+        float: right;
+        margin-top: 1em;
+    }
 
-  .menu {
-    display: flex ;
-    flex-direction: row;
-    justify-content: space-around;
-    position: static;                 
-    width: 100%;
-    background-color: steelblue;
-  }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: static;
+        width: 100%;
+        background-color: steelblue;
+    }
 
-  .menu li {
-    width: auto;
-    text-align: center;
-  }
+    .menu li {
+        width: auto;
+        text-align: center;
+    }
 
-  .menu li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 1em;
-  }
+    .menu li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 1em;
+    }
 
-  .menu-btn,
-  #checkbox-toggle {
-    display: none;
-  }
+    .menu-btn,
+    #checkbox-toggle {
+        display: none;
+    }
 
-  .submenu {
-    position: absolute;
-    background-color: steelblue;
-    display: none;
-    flex-direction: column;
-  }
+    .submenu {
+        position: absolute;
+        background-color: steelblue;
+        display: none;
+        flex-direction: column;
+    }
 
-  .menu li:hover > .submenu {
-    display: flex;
-  }
+    .menu li:hover > .submenu {
+        display: flex;
+    }
 }
