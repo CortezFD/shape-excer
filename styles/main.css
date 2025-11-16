@@ -17,13 +17,14 @@ img {
     max-width: 70px;
     min-width: 60px;
 }
-
+header {
+    font-size: 3em;
+}
 h1 {
     color: steelblue;
     font-style: italic;
     font-size: 2em;
 }
-
 
 h2 {
     padding-left: 0.7em;
