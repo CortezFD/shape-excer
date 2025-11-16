@@ -92,19 +92,19 @@ aside {
 }
 
 
-figure.stress-figure {
+figure.stress {
     float: left;
     width: 150px;
     margin: 0 1em 0 0;
 }
 
-figure.stress-figure img {
+figure.stress img {
     float: left;
     width: 100%;
     max-width: 130px;
 }
 
-figure.stress-figure figcaption {
+figure.stress figcaption {
     font-size: 0.85em;
     text-align: center;
     padding-top: 0.3em;
