@@ -97,6 +97,10 @@ footer {
 #mainhead {
     color:black
 }
+#stressre {
+    color:black;
+    padding:1em;
+}
 .navbar {
     width: 100%;
     background-color: steelblue;
