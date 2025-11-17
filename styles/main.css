@@ -154,7 +154,7 @@ figure.stress-figure img {
 figure.stress-figure figcaption {
     font-weight: bold;
     margin-bottom: 0.5em;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid steelblue;
     width: 100%;
 }
 
