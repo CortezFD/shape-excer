@@ -41,7 +41,20 @@ h3 a {
 p {
     padding: 0.5em 1em;
 }
+.stress-figure {
+    float: left;
+    width: 40%;
+    margin: 0 1em 1em 0;
+}
 
+.stress-figure img {
+    width: 100%;
+}
+
+.stress-figure figcaption {
+    font-size: 0.9em;
+    padding-top: 0.5em;
+}
 blockquote {
     padding-left: 3em;
 }
