@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 
-/* Base */
 body {
     font-family: Arial, sans-serif;
     width: 100%;
@@ -11,7 +10,6 @@ body {
     font-size: 1.2vw;
 }
 
-/* ---- HEADER ---- */
 header {
     border-bottom: 2px solid steelblue;
     width: 100%;
@@ -32,29 +30,24 @@ header h1 {
     color: steelblue;
 }
 
-/* ---- FONT FACE ---- */
 @font-face {
     font-family: "American Captain";
     src: url("../fonts/American Captain.ttf");
 }
 
-/* Apply font to logo text */
 #shapeuptext {
     font-family: "American Captain", Arial, sans-serif;
 }
 
-/* Subheading */
 #mainhead {
     color: black;
 }
 
-/* ---- PAGE TITLES ---- */
 #stressre {
     color: black;
     padding: 1em 0.5em;
 }
 
-/* ---- NAVIGATION ---- */
 .navbar {
     width: 100%;
     background-color: steelblue;
@@ -85,7 +78,6 @@ nav {
     color: white;
 }
 
-/* Mobile Menu */
 #checkbox-toggle {
     display: none;
 }
@@ -122,7 +114,6 @@ nav {
     width: 100%;
 }
 
-/* Submenu */
 .submenu {
     display: none;
     flex-direction: column;
@@ -133,7 +124,6 @@ nav {
     display: flex;
 }
 
-/* ---- MAIN ---- */
 main {
     flex-direction: column;
 }
@@ -147,12 +137,10 @@ h2 {
     color: maroon;
 }
 
-/* Links in text */
 p a {
     color: maroon;
 }
 
-/* ---- STRESS PAGE FIGURE ---- */
 figure.stress-figure {
     float: left;
     width: auto;
@@ -171,7 +159,6 @@ figure.stress-figure figcaption {
     width: 100%;
 }
 
-/* ---- ASIDE ---- */
 aside {
     float: left;
     border: 2px solid steelblue;
@@ -189,19 +176,16 @@ aside ul li {
     margin-bottom: 0.5em;
 }
 
-/* Icons for list items */
 .icon {
     width: 22px;
     vertical-align: middle;
     margin-right: 6px;
 }
 
-/* Hover states */
 aside a:hover {
     color: maroon;
 }
 
-/* ---- FOOTER ---- */
 footer {
     background-color: steelblue;
     color: white;
@@ -210,8 +194,32 @@ footer {
     text-align: center;
     clear: both;
 }
+.stress-figure {
+    float: left;
+    margin: 0 1.5em 1em 0;
+    width: 50%; /* or auto */
+}
 
-/* ---- DESKTOP (TABLET+) ---- */
+.stress-figure .img-wrapper {
+    float: left;
+    margin-right: 1em;
+}
+
+.stress-figure img {
+    display: block;
+    max-width: 220px; /* adjust as needed */
+}
+
+.stress-figure figcaption {
+    clear: left;       /* ensures caption goes below image */
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin: 0.5em 0;
+}
+
+.stress-figure p {
+    overflow: hidden; /* wraps around floated image */
+}
 @media (min-width: 668px) {
     html {
         width: 800px;
@@ -229,9 +237,8 @@ footer {
         margin-top: 1em;
     }
 
-    /* Desktop menu */
     .menu {
-        display: flex !important;
+        display: flex ;
         flex-direction: row;
         justify-content: space-around;
         position: static;
