@@ -131,7 +131,17 @@ main {
 p {
     padding: 0.5em 1em;
 }
-
+#bord {
+    background-color: steelblue;
+    text-align: center;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 7px;
+    padding: 0.5em;
+}
 h2 {
     padding-left: 0.7em;
     color: maroon;
