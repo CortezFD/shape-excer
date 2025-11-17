@@ -22,6 +22,9 @@ header {
 header {
     font-size: 1.5em;
 }
+.stressimg {
+    float: left;
+}
 #shapeuptext {
     font-style: italic; ;
 }
