@@ -264,3 +264,7 @@ footer {
         display: flex;
     }
 }
+.stress-figure img {
+    display: block;
+    max-width: 220px; /* adjust as needed */
+}
