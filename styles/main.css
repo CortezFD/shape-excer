@@ -32,7 +32,7 @@ header h1 {
 
 @font-face {
     font-family: "AmericanCaptain";
-    src: url("american-captain.ttf") format("truetype");
+    src: url("american-captain/American Captain.ttf") format("truetype");
 }
 
 #shapeuptext {
