@@ -66,6 +66,14 @@ html {
 ul{
     list-style-type: square;
 }
+@font-face {
+    font-family: "American Captain";
+    src: url("../fonts/American Captain.ttf");
+}
+
+#shapeuptext {
+    font-family: "American Captain", Arial, sans-serif;
+}
 header {
     border-bottom: 2px solid steelblue;
     width: 100%;
