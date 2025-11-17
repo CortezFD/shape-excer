@@ -86,9 +86,7 @@ header {
     margin-right: 6px;
 }
 main {
-    float: left;
-    clear: left;
-    display: flex;
+   
     flex-direction: column;
 }
 
