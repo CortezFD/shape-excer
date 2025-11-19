@@ -36,7 +36,7 @@ header h1 {
 }
 
 #shapeuptext {
-    font-family: "American Captain"Arial;
+    font-family: "American Captain", Arial;
 }
 
 #mainhead {
@@ -131,6 +131,7 @@ main {
 p {
     padding: 0.5em 1em;
 }
+
 #bord {
     background-color: steelblue;
     text-align: center;
@@ -138,10 +139,10 @@ p {
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    border-image: initial;
     border-radius: 7px;
     padding: 0.5em;
 }
+
 h2 {
     padding-left: 0.7em;
     color: maroon;
@@ -152,20 +153,26 @@ p a {
 }
 
 figure.stress-figure {
-    float: left;
-    margin: 0 1.5em 0em 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1em;
+    margin: 1em;
 }
 
 figure.stress-figure img {
-    width: 220px;
-    float: left;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 4px;
 }
 
 figure.stress-figure figcaption {
     font-weight: bold;
-    margin-bottom: 0.5em;
     border-bottom: 2px solid steelblue;
-    width: 100%;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.5em;
 }
 
 aside {
@@ -203,32 +210,19 @@ footer {
     text-align: center;
     clear: both;
 }
-.stress-figure {
-    float: left;
-    width: 43%; /* or auto */
+
+@media (max-width: 600px) {
+    figure.stress-figure {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    figure.stress-figure img {
+        max-width: 90%;
+        margin: auto;
+    }
 }
 
-.stress-figure .img-wrapper {
-    float: left;
-    margin-right: 1em;
-}
-
-.stress-figure img {
-    display: block;
-    max-width: 120px; /* adjust as needed */
-}
-
-.stress-figure figcaption {
-    clear: left;       /* ensures caption goes below image */
-    font-weight: bold;
-    border-bottom: 2px solid black;
-    margin: 0.5em 0;
-    padding-bottom: 0.3em;
-}
-
-.stress-figure p {
-    overflow: hidden; /* wraps around floated image */
-}
 @media (min-width: 668px) {
     html {
         width: 700px;
@@ -247,7 +241,7 @@ footer {
     }
 
     .menu {
-        display: flex ;
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
         position: static;
@@ -274,16 +268,4 @@ footer {
     .menu li:hover > .submenu {
         display: flex;
     }
-}
-.stress-figure img {
-    display: block;
-    max-width: 240px; /* adjust as needed */
-}
-figure.stress-figure img {
-    width: 220px;
-    float: left;
-}
-.stress-figure img {
-    display: block;
-    max-width: 240px;
 }
