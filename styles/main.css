@@ -279,3 +279,11 @@ footer {
     display: block;
     max-width: 240px; /* adjust as needed */
 }
+figure.stress-figure img {
+    width: 220px;
+    float: left;
+}
+.stress-figure img {
+    display: block;
+    max-width: 240px;
+}
