@@ -37,6 +37,7 @@ header h1 {
 
 #shapeuptext {
     font-family: "American Captain", Arial, sans-serif;
+    font-style: italic;
 }
 
 #mainhead {
@@ -278,7 +279,7 @@ footer {
 }
 .stress-figure img {
     display: block;
-    max-width: 240px; /* adjust as needed */
+    max-width: 240px; 
 }
 figure.stress-figure img {
     width: 220px;
