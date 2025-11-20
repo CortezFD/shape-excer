@@ -195,6 +195,9 @@ aside ul li {
 aside a:hover {
     color: maroon;
 }
+#clr ul li {
+    list-style-type: square;
+}
 
 footer {
     background-color: steelblue;
