@@ -195,7 +195,7 @@ aside ul li {
 aside a:hover {
     color: maroon;
 }
-#clr ul li {
+#clr ul {
     list-style-type: square;
 }
 
