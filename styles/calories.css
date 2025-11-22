@@ -238,22 +238,8 @@ aside ul li {
     background-size: cover;
 }
 
-.run-icon {
-    background-image: url("run-icon.png");
-}
-
-.stretch-icon {
-    background-image: url("stretch-icon.png");
-}
-
-.strength-icon {
-    background-image: url("strength-icon.png");
-}
-
-.cardio-icon {
-    background-image: url("cardio-icon.png");
-}
-
-.yoga-icon {
-    background-image: url("yoga-icon.png");
-}
+.run-icon { background-image: url("../images/run-icon.png"); }
+.stretch-icon { background-image: url("../images/stretch-icon.png"); }
+.strength-icon { background-image: url("../images/strength-icon.png"); }
+.cardio-icon { background-image: url("../images/cardio-icon.png"); }
+.yoga-icon { background-image: url("../images/yoga-icon.png"); }
