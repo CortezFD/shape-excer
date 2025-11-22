@@ -145,42 +145,7 @@ footer {
     border-radius: 7px;
     padding: 0.5em;
 }
-
-/* DESKTOP MODE */
-@media (min-width: 668px) {
-    html {
-        width: 700px;
-        margin: auto;
-    }
-
-    .menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        position: static;
-    }
-
-    .menu-btn,
-    #checkbox-toggle {
-        display: none;
-    }
-
-    .submenu {
-        position: absolute;
-        background-color: steelblue;
-        display: none;
-        flex-direction: column;
-    }
-
-    .menu li:hover > .submenu {
-        display: flex;
-    }
-
-    aside {
-        width: 30%;
-        float: right;
-    }
-        .cal-table,
+    .cal-table,
     .cal-table thead {
         display: block;
     }
@@ -216,4 +181,39 @@ footer {
     .cal-table td:nth-child(3)::before { content: "Calories"; }
     .cal-table td:nth-child(4)::before { content: "Time Eaten"; }
 
+/* DESKTOP MODE */
+@media (min-width: 668px) {
+    html {
+        width: 700px;
+        margin: auto;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: static;
+    }
+
+    .menu-btn,
+    #checkbox-toggle {
+        display: none;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: steelblue;
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu li:hover > .submenu {
+        display: flex;
+    }
+
+    aside {
+        width: 30%;
+        float: right;
+    }
+    
 }
