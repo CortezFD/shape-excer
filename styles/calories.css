@@ -218,7 +218,6 @@ footer {
     .menu li:hover > .submenu {
         display: flex;
     }
-    @media (max-width: 480px) {
   .cal-table,
   .cal-table thead,
   .cal-table tbody,
