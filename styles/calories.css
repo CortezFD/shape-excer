@@ -218,7 +218,7 @@ footer {
     .menu li:hover > .submenu {
         display: flex;
     }
-    @media (mIN-width: 668px) {
+    @media (mIN-width: 480px) {
   .cal-table,
   .cal-table thead,
   .cal-table tbody,
