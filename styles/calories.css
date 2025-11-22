@@ -152,6 +152,7 @@ footer {
 }
 
 .cal-table {
+    border: black 2px solid;
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 1em;
