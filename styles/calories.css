@@ -143,6 +143,40 @@ footer {
     border-radius: 7px;
     padding: 0.5em;
 }
+.cal-title {
+    text-align: center;
+    font-size: 2em;
+    color: maroon;
+    margin: 1em 0 0.5em;
+}
+
+.cal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.5em auto 2em;
+    font-size: 1em;
+    box-shadow: 3px 3px 8px #666;
+}
+
+.cal-table thead {
+    background-color: steelblue;
+    color: white;
+}
+
+.cal-table th,
+.cal-table td {
+    border: 1px solid steelblue;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.cal-table tbody tr:nth-child(even) {
+    background-color: #e6f0fa;
+}
+
+.cal-table tbody tr:hover {
+    background-color: lightsteelblue;
+}
 
 /* DESKTOP MODE */
 @media (min-width: 668px) {
