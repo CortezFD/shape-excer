@@ -186,7 +186,20 @@ footer {
 .table-area {
     width: 65%;
 }
-
+aside::before {
+    background-image:
+        url("favicon1.png"),
+        url("favicon2.png"),
+        url("favicon3.png"),
+        url("favicon4.png"),
+        url("favicon5.png");
+    background-position:
+        0 0,
+        48px 0,
+        96px 0,
+        144px 0,
+        192px 0;
+}
 @media (min-width: 668px) {
     html {
         width: 700px;
