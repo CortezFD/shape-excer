@@ -188,7 +188,7 @@ footer {
 }
 aside::before {
     background-image:
-        url("favicon1.png"),
+        url("run-icon.png"),
         url("favicon2.png"),
         url("favicon3.png"),
         url("favicon4.png"),
