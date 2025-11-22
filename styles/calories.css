@@ -150,7 +150,11 @@ footer {
     font-size: 2em;
     margin: 1em 0 0.5em;
 }
-
+.whitecol {
+    background-color: steelblue;
+    color: white;
+    padding: 0.5em;
+}
 .cal-table {
     border: black 2px solid;
     width: 100%;
