@@ -218,6 +218,70 @@ footer {
     .menu li:hover > .submenu {
         display: flex;
     }
+    @media (max-width: 480px) {
+  .cal-table,
+  .cal-table thead,
+  .cal-table tbody,
+  .cal-table th,
+  .cal-table td,
+  .cal-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .cal-table thead tr {
+    display: none;
+  }
+
+  .cal-table tr {
+    margin-bottom: 1.5em;
+    border: 2px solid steelblue;
+    border-radius: 8px;
+    padding: 0.5em;
+  }
+
+  .cal-table td {
+    text-align: left;
+    padding: 0.3em 0.5em;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding-left: 50%;
+    font-size: 1em;
+  }
+
+  /* Category cells styled like headers with background color */
+  .cal-table td:first-child {
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+    padding-left: 0.5em;
+    border-radius: 6px 6px 0 0;
+    border-bottom: 2px solid white;
+  }
+
+  /* Add labels before each cell except category for clarity */
+  .cal-table td:nth-child(2)::before {
+    content: "Food: ";
+    font-weight: bold;
+    position: absolute;
+    left: 0.5em;
+  }
+
+  .cal-table td:nth-child(3)::before {
+    content: "Serving Size: ";
+    font-weight: bold;
+    position: absolute;
+    left: 0.5em;
+  }
+
+  .cal-table td:nth-child(4)::before {
+    content: "Calories: ";
+    font-weight: bold;
+    position: absolute;
+    left: 0.5em;
+  }
+}
 }
 
 .red-title {
