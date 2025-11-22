@@ -109,13 +109,7 @@ nav {
     display: flex;
 }
 
-aside {
-    border: 2px solid black;
-    border-radius: 15px;
-    padding: 1em 0.5em;
-    width: 30%;
-    margin: 0;
-}
+
 aside {
     float: none;
     border: 2px solid steelblue;
