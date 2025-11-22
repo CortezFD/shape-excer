@@ -108,7 +108,14 @@ aside {
     width: 30%;
     margin: 0;
 }
-
+aside {
+    float: none;
+    border: 2px solid steelblue;
+    border-radius: 25px;
+    padding: 1em 0.5em;
+    width: 30%;
+    margin: 0;
+}
 aside ul {
     list-style-type: none;
     padding-left: 0;
