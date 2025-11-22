@@ -190,22 +190,6 @@ footer {
     width: 65%;
 }
 
-.red-title {
-    color: red;
-}
-
-.icon-row {
-    display: flex;
-    gap: 0.5em;
-    justify-content: center;
-    margin-bottom: 1em;
-}
-
-.icon-row img {
-    width: 40px;
-    height: 40px;
-}
-
 @media (min-width: 668px) {
     html {
         width: 700px;
@@ -234,4 +218,42 @@ footer {
     .menu li:hover > .submenu {
         display: flex;
     }
+}
+
+.red-title {
+    color: red;
+}
+
+aside ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.run-icon {
+    background-image: url("run-icon.png");
+}
+
+.stretch-icon {
+    background-image: url("stretch-icon.png");
+}
+
+.strength-icon {
+    background-image: url("strength-icon.png");
+}
+
+.cardio-icon {
+    background-image: url("cardio-icon.png");
+}
+
+.yoga-icon {
+    background-image: url("yoga-icon.png");
 }
