@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: auto;
+    font-size: 1.2vw;
+}
+
+/* HIDE MAIN */
+main {
+    display: none !important;
+}
+
+/* HEADER */
+header {
+    border-bottom: 2px solid steelblue;
+    width: 100%;
+    padding: 0.5em;
+    background-image: linear-gradient(to top, lightsteelblue, white);
+}
+
+header img {
+    float: left;
+    margin: -10px 1em 0 -10px;
+    width: 100%;
+    max-width: 110px;
+    min-width: 60px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: steelblue;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background-color: steelblue;
+    display: block;
+    position: relative;
+}
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.navbar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 0.7em;
+    text-decoration: none;
+    color: white;
+}
+
+/* Responsive menu */
+#checkbox-toggle {
+    display: none;
+}
+
+.menu-btn {
+    display: block;
+    padding: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-btn::after {
+    content: "\2630";
+}
+
+#checkbox-toggle:checked ~ .menu-btn::after {
+    content: "\2716";
+}
+
+.menu {
+    position: absolute;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    background: steelblue;
+    width: 100%;
+}
+
+#checkbox-toggle:checked ~ .menu {
+    display: flex;
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+.menu li:hover > .submenu {
+    display: flex;
+}
+
+/* ASIDE */
+aside {
+    float: left;
+    border: 2px solid steelblue;
+    border-radius: 25px;
+    margin: 1em auto;
+    padding: 1em 0.5em;
+    width: 90%;
+}
+
+aside ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+aside a:hover {
+    color: maroon;
+}
+
+/* FOOTER */
+footer {
+    background-color: steelblue;
+    color: white;
+    padding-top: 0.5em;
+    height: 50px;
+    text-align: center;
+    clear: both;
+}
+
+/* DESKTOP MODE */
+@media (min-width: 668px) {
+    html {
+        width: 700px;
+        margin: auto;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: static;
+    }
+
+    .menu-btn,
+    #checkbox-toggle {
+        display: none;
+    }
+
+    .submenu {
+        position: absolute;
+        background-color: steelblue;
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu li:hover > .submenu {
+        display: flex;
+    }
+
+    aside {
+        width: 30%;
+        float: right;
+    }
+}
