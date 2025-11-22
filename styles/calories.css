@@ -134,6 +134,17 @@ footer {
     text-align: center;
     clear: both;
 }
+#bord {
+    background-color: steelblue;
+    text-align: center;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 7px;
+    padding: 0.5em;
+}
 
 /* DESKTOP MODE */
 @media (min-width: 668px) {
