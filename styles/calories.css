@@ -180,4 +180,40 @@ footer {
         width: 30%;
         float: right;
     }
+        .cal-table,
+    .cal-table thead {
+        display: block;
+    }
+
+    .cal-table th {
+        display: none;
+    }
+
+    .cal-table tr {
+        display: block;
+        margin-bottom: 1em;
+        padding: 1em;
+        border: 2px solid steelblue;
+        border-radius: 10px;
+    }
+
+    .cal-table td {
+        display: block;
+        border: none;
+        text-align: left;
+        margin-bottom: 0.7em;
+    }
+
+    .cal-table td::before {
+        font-weight: bold;
+        color: maroon;
+        display: block;
+        margin-bottom: 0.3em;
+    }
+
+    .cal-table td:nth-child(1)::before { content: "Food Item"; }
+    .cal-table td:nth-child(2)::before { content: "Category"; }
+    .cal-table td:nth-child(3)::before { content: "Calories"; }
+    .cal-table td:nth-child(4)::before { content: "Time Eaten"; }
+
 }
