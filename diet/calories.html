@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="../styles/calories.css">
 	<title>Shape Up! | Calorie Counter</title>
 </head>
+
 <body>
     <header>
         <a href="../index.html">
@@ -32,7 +33,7 @@
                 </ul>
             </li>
             <li class="submenu-item">
-                <a class="clr" id="bord"  href="#">Healthy Diets <small>&#9660;</small></a>
+                <a class="clr" id="bord" href="#">Healthy Diets <small>&#9660;</small></a>
                 <ul class="submenu">
                     <li><a class="clr" href="../diet/diet.html">Why a Healthy Diet?</a></li>
                     <li><a class="clr" href="../diet/meals.html">Plan Your Meals</a></li>
@@ -42,10 +43,19 @@
             </li>
         </ul>
     </nav>
-	<div>
 
+<div>
     <aside>
-        <h2>Additional resources</h2>
+        <h2 class="red-title">Additional resources</h2>
+
+        <div class="icon-row">
+            <img src="run-icon.png" alt="">
+            <img src="stretch-icon.png" alt="">
+            <img src="strength-icon.png" alt="">
+            <img src="cardio-icon.png" alt="">
+            <img src="yoga-icon.png" alt="">
+        </div>
+
         <nav>
             <ul style="list-style-type:none;">
                 <li><a href="https://www.cdc.gov/physical-activity-basics/benefits/index.html/">Physical activity and health</a></li>
@@ -57,108 +67,110 @@
         </nav>
     </aside>
 
-<h2 class="cal-title">Calorie Counter</h2>
+    <h2 class="cal-title red-title">Calorie Counter</h2>
 
-<table class="cal-table">
-    <thead>
-        <tr>
-            <th class="whitecol">Category</th>
-            <th class="whitecol">Food</th>
-            <th class="whitecol">Serving Size</th>
-            <th class="whitecol">Calories</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan="3">Beef</td>
-            <td>Frankfurter, beef</td>
-            <td>1 each</td>
-            <td>184</td>
-        </tr>
-        <tr>
-            <td>Ground beef</td>
-            <td>4 oz.</td>
-            <td>264</td>
-        </tr>
-        <tr>
-            <td>T-bone steak</td>
-            <td>8 ounces</td>
-            <td>402</td>
-        </tr>
+    <table class="cal-table">
+        <thead>
+            <tr>
+                <th class="whitecol">Category</th>
+                <th class="whitecol">Food</th>
+                <th class="whitecol">Serving Size</th>
+                <th class="whitecol">Calories</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Beef</td>
+                <td>Frankfurter, beef</td>
+                <td>1 each</td>
+                <td>184</td>
+            </tr>
+            <tr>
+                <td>Ground beef</td>
+                <td>4 oz.</td>
+                <td>264</td>
+            </tr>
+            <tr>
+                <td>T-bone steak</td>
+                <td>8 ounces</td>
+                <td>402</td>
+            </tr>
 
-        <tr>
-            <td rowspan="3">Bread</td>
-            <td>Bagel, plain</td>
-            <td>1 bagel</td>
-            <td>360</td>
-        </tr>
-        <tr>
-            <td>Bread, sliced</td>
-            <td>1 slice</td>
-            <td>60 to 80</td>
-        </tr>
-        <tr>
-            <td>English muffin</td>
-            <td>1</td>
-            <td>135</td>
-        </tr>
+            <tr>
+                <td rowspan="3">Bread</td>
+                <td>Bagel, plain</td>
+                <td>1 bagel</td>
+                <td>360</td>
+            </tr>
+            <tr>
+                <td>Bread, sliced</td>
+                <td>1 slice</td>
+                <td>60 to 80</td>
+            </tr>
+            <tr>
+                <td>English muffin</td>
+                <td>1</td>
+                <td>135</td>
+            </tr>
 
-        <tr>
-            <td rowspan="3">Cereal</td>
-            <td>Cheerios</td>
-            <td>1 cup</td>
-            <td>110</td>
-        </tr>
-        <tr>
-            <td>Corn flakes</td>
-            <td>1 cup</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <td>Oatmeal, quick</td>
-            <td>1 cup cooked</td>
-            <td>145</td>
-        </tr>
+            <tr>
+                <td rowspan="3">Cereal</td>
+                <td>Cheerios</td>
+                <td>1 cup</td>
+                <td>110</td>
+            </tr>
+            <tr>
+                <td>Corn flakes</td>
+                <td>1 cup</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Oatmeal, quick</td>
+                <td>1 cup cooked</td>
+                <td>145</td>
+            </tr>
 
-        <tr>
-            <td rowspan="4">Cheese</td>
-            <td>American</td>
-            <td>1 ounce</td>
-            <td>106</td>
-        </tr>
-        <tr>
-            <td>Swiss</td>
-            <td>1 ounce</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <td>Cheddar</td>
-            <td>1 ounce</td>
-            <td>114</td>
-        </tr>
-        <tr>
-            <td>Cottage cheese, regular</td>
-            <td>1/2 cup</td>
-            <td>117</td>
-        </tr>
+            <tr>
+                <td rowspan="4">Cheese</td>
+                <td>American</td>
+                <td>1 ounce</td>
+                <td>106</td>
+            </tr>
+            <tr>
+                <td>Swiss</td>
+                <td>1 ounce</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Cheddar</td>
+                <td>1 ounce</td>
+                <td>114</td>
+            </tr>
+            <tr>
+                <td>Cottage cheese, regular</td>
+                <td>1/2 cup</td>
+                <td>117</td>
+            </tr>
 
-        <tr>
-            <td rowspan="2">Fruit</td>
-            <td>Apple</td>
-            <td>1 medium</td>
-            <td>80</td>
-        </tr>
-        <tr>
-            <td>Banana</td>
-            <td>1</td>
-            <td>105</td>
-        </tr>
-    </tbody>
-</table>
-</main>
+            <tr>
+                <td rowspan="2">Fruit</td>
+                <td>Apple</td>
+                <td>1 medium</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>1</td>
+                <td>105</td>
+            </tr>
+        </tbody>
+    </table>
+
 </div>
 
-    <footer>
-        <p>&copy; Shape Up!</p>
-    </footer>
+<footer>
+    <p>&copy; Shape Up!</p>
+</footer>
+
 </body>
+</html>

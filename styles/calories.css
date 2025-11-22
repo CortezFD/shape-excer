@@ -34,9 +34,11 @@ header h1 {
     font-size: 3em;
     color: steelblue;
 }
+
 div {
     width: 100%;
 }
+
 .navbar {
     width: 100%;
     background-color: steelblue;
@@ -104,7 +106,6 @@ nav {
     display: flex;
 }
 
-
 aside {
     float: right;
     border: 2px solid steelblue;
@@ -113,6 +114,7 @@ aside {
     width: 30%;
     margin: 0;
 }
+
 aside ul {
     list-style-type: none;
     padding-left: 0;
@@ -147,11 +149,13 @@ footer {
     font-size: 2em;
     margin: 1em 0 0.5em;
 }
+
 .whitecol {
     background-color: steelblue;
     color: white;
     padding: 0.5em;
 }
+
 .cal-table {
     border: black 2px solid;
     border-collapse: collapse;
@@ -161,7 +165,6 @@ footer {
 
 .cal-table th,
 .cal-table td {
-   
     padding: 0.5em;
     text-align: left;
 }
@@ -186,20 +189,23 @@ footer {
 .table-area {
     width: 65%;
 }
-aside::before {
-    background-image:
-        url("run-icon.png"),
-        url("favicon2.png"),
-        url("favicon3.png"),
-        url("favicon4.png"),
-        url("favicon5.png");
-    background-position:
-        0 0,
-        48px 0,
-        96px 0,
-        144px 0,
-        192px 0;
+
+.red-title {
+    color: red;
 }
+
+.icon-row {
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.icon-row img {
+    width: 40px;
+    height: 40px;
+}
+
 @media (min-width: 668px) {
     html {
         width: 700px;
