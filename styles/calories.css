@@ -218,6 +218,7 @@ footer {
     .menu li:hover > .submenu {
         display: flex;
     }
+}
   .cal-table,
   .cal-table thead,
   .cal-table tbody,
