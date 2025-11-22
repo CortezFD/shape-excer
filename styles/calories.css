@@ -34,15 +34,9 @@ header h1 {
     font-size: 3em;
     color: steelblue;
 }
-<<<<<<< HEAD
 div {
     width: 100%;
 }
-=======
-
-
-
->>>>>>> 4e3b666b2a4a2fc5530f33cc7cf2a8b56d722665
 .navbar {
     width: 100%;
     background-color: steelblue;
@@ -160,7 +154,6 @@ footer {
 }
 .cal-table {
     border: black 2px solid;
-    width: 65%;
     border-collapse: collapse;
     margin-bottom: 1em;
     font-size: 1em;
