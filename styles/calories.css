@@ -33,6 +33,10 @@ header h1 {
     font-size: 3em;
     color: steelblue;
 }
+div {
+    width: 70%;
+}
+}
 
 .navbar {
     width: 100%;
