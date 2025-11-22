@@ -191,9 +191,34 @@ footer {
     width: 65%;
 }
 
+
+
+
+.red-title {
+    color: red;
+}
+
+aside ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.run-icon { background-image: url("../images/run-icon.png"); }
+.stretch-icon { background-image: url("../images/stretch-icon.png"); }
+.strength-icon { background-image: url("../images/strength-icon.png"); }
+.cardio-icon { background-image: url("../images/cardio-icon.png"); }
+.yoga-icon { background-image: url("../images/yoga-icon.png"); }
 @media (min-width: 668px) {
     html {
-        width: 700px;
+        width: 800px;
         margin: auto;
     }
 
@@ -219,28 +244,4 @@ footer {
     .menu li:hover > .submenu {
         display: flex;
     }
-    
 }
-
-.red-title {
-    color: red;
-}
-
-aside ul li {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-}
-
-.icon {
-    width: 28px;
-    height: 28px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.run-icon { background-image: url("../images/run-icon.png"); }
-.stretch-icon { background-image: url("../images/stretch-icon.png"); }
-.strength-icon { background-image: url("../images/strength-icon.png"); }
-.cardio-icon { background-image: url("../images/cardio-icon.png"); }
-.yoga-icon { background-image: url("../images/yoga-icon.png"); }
