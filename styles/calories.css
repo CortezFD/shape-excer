@@ -244,4 +244,7 @@ aside ul li {
     .menu li:hover > .submenu {
         display: flex;
     }
+    aside {
+        display: none;
+    }
 }

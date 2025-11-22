@@ -292,3 +292,8 @@ figure.stress-figure img {
     display: block;
     max-width: 240px;
 }
+.run-icon { background-image: url("../images/run-icon.png"); }
+.stretch-icon { background-image: url("../images/stretch-icon.png"); }
+.strength-icon { background-image: url("../images/strength-icon.png"); }
+.cardio-icon { background-image: url("../images/cardio-icon.png"); }
+.yoga-icon { background-image: url("../images/yoga-icon.png"); }
