@@ -132,6 +132,7 @@ main {
 p {
     padding: 0.5em 1em;
 }
+
 #bord {
     background-color: steelblue;
     text-align: center;
@@ -139,10 +140,10 @@ p {
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    border-image: initial;
     border-radius: 7px;
     padding: 0.5em;
 }
+
 h2 {
     padding-left: 0.7em;
     color: maroon;
@@ -169,32 +170,72 @@ figure.stress-figure figcaption {
     width: 100%;
 }
 
-aside {
+.stress-figure {
     float: left;
+    width: 43%;
+}
+
+.stress-figure .img-wrapper {
+    float: left;
+    margin-right: 1em;
+}
+
+.stress-figure img {
+    display: block;
+    max-width: 240px;
+}
+
+.stress-figure figcaption {
+    clear: left;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin: 0.5em 0;
+    padding-bottom: 0.3em;
+}
+
+.stress-figure p {
+    overflow: hidden;
+}
+
+
+aside {
+    float: right;
     border: 2px solid steelblue;
     border-radius: 25px;
-    margin: 1em auto;
     padding: 1em 0.5em;
+    width: 30%;
+    margin: 1em 0;
 }
 
 aside ul {
-    list-style-type: ;
+    list-style-type: none;
     padding-left: 0;
 }
 
 aside ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
     margin-bottom: 0.5em;
 }
 
 .icon {
-    width: 22px;
-    vertical-align: middle;
-    margin-right: 6px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background-size: cover;
 }
 
 aside a:hover {
     color: maroon;
 }
+
+.run-icon { background-image: url("../images/run-icon.png"); }
+.stretch-icon { background-image: url("../images/stretch-icon.png"); }
+.strength-icon { background-image: url("../images/strength-icon.png"); }
+.cardio-icon { background-image: url("../images/cardio-icon.png"); }
+.yoga-icon { background-image: url("../images/yoga-icon.png"); }
+
 ul {
     list-style-type: square;
 }
@@ -206,32 +247,6 @@ footer {
     height: 50px;
     text-align: center;
     clear: both;
-}
-.stress-figure {
-    float: left;
-    width: 43%; 
-}
-
-.stress-figure .img-wrapper {
-    float: left;
-    margin-right: 1em;
-}
-
-.stress-figure img {
-    display: block;
-    max-width: 120px; 
-}
-
-.stress-figure figcaption {
-    clear: left;     
-    font-weight: bold;
-    border-bottom: 2px solid black;
-    margin: 0.5em 0;
-    padding-bottom: 0.3em;
-}
-
-.stress-figure p {
-    overflow: hidden; 
 }
 
 @media (min-width: 668px) {
@@ -252,7 +267,7 @@ footer {
     }
 
     .menu {
-        display: flex ;
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
         position: static;
@@ -280,20 +295,3 @@ footer {
         display: flex;
     }
 }
-.stress-figure img {
-    display: block;
-    max-width: 240px; 
-}
-figure.stress-figure img {
-    width: 220px;
-    float: left;
-}
-.stress-figure img {
-    display: block;
-    max-width: 240px;
-}
-.run-icon { background-image: url("../images/run-icon.png"); }
-.stretch-icon { background-image: url("../images/stretch-icon.png"); }
-.strength-icon { background-image: url("../images/strength-icon.png"); }
-.cardio-icon { background-image: url("../images/cardio-icon.png"); }
-.yoga-icon { background-image: url("../images/yoga-icon.png"); }
