@@ -374,3 +374,6 @@ input::placeholder {
 fieldset label {
     margin-right: 1em;
 }
+input[type="radio"]:checked {
+    accent-color: blue;
+}
