@@ -309,12 +309,12 @@ fieldset {
     border: 1px solid #ccc;
     padding: 1em;
     border-radius: 6px;
-    width: 65%;
 }
 
 legend {
     font-weight: bold;
     padding: 0 0.4em;
+    color: maroon;
 }
 
 textarea {
@@ -352,4 +352,25 @@ textarea {
 .button-group {
     border: none;
     text-align: left;
+}
+
+label span.red {
+    color: red;
+}
+
+input:required:invalid {
+    border: 2px solid red;
+}
+
+input:required:valid {
+    border: 1px solid #bbb;
+}
+
+input::placeholder {
+    color: red;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-right: 1em;
 }
