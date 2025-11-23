@@ -310,6 +310,7 @@ fieldset {
     padding: 1em;
     border-radius: 6px;
     width: 65%;
+    margin: 1em 0;
 }
 
 legend {
