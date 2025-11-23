@@ -194,6 +194,11 @@ aside ul li {
 .yoga-icon { background-image: url("../images/yoga-icon.png"); }
 
 @media (min-width: 668px) {
+    header img {
+        width: 100%;
+        max-width: 150px;
+        min-width: 80px;
+    }
 
     html {
         width: 900px;
