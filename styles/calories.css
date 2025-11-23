@@ -186,7 +186,15 @@ aside ul li {
     display: inline-block;
     background-size: cover;
 }
+@font-face {
+    font-family: "American Captain";
+    src: url("../american-captain/American Captain.ttf");
+}
 
+#shapeuptext {
+    font-family: "American Captain", Arial, sans-serif;
+    font-style: italic;
+}
 .run-icon { background-image: url("../images/run-icon.png"); }
 .stretch-icon { background-image: url("../images/stretch-icon.png"); }
 .strength-icon { background-image: url("../images/strength-icon.png"); }
