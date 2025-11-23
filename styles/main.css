@@ -367,7 +367,7 @@ input:required:valid {
 }
 
 input::placeholder {
-    color: red;
+    color: lightgray;
 }
 
 fieldset label {
