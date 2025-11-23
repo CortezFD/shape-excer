@@ -197,7 +197,6 @@ figure.stress-figure figcaption {
     overflow: hidden;
 }
 
-
 aside {
     float: right;
     border: 2px solid steelblue;
@@ -294,4 +293,62 @@ footer {
     .menu li:hover > .submenu {
         display: flex;
     }
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 0.4em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.base-btn {
+    padding: 0.7em 1.3em;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.25s;
+    margin-right: 0.5em;
+}
+
+.submit-btn {
+    background-color: steelblue;
+    color: white;
+}
+
+.reset-btn {
+    background-color: maroon;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: rgb(60, 110, 160);
+}
+
+.reset-btn:hover {
+    background-color: rgb(150, 20, 20);
+}
+
+.button-group {
+    border: none;
+    text-align: left;
 }
