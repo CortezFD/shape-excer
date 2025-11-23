@@ -45,29 +45,24 @@
 
   <aside>
     <h2 class="red-title">Additional resources</h2>
-
     <nav>
         <ul style="list-style-type:none; padding-left:0;">
             <li>
                 <span class="icon run-icon"></span>
                 <a href="https://www.cdc.gov/physical-activity-basics/benefits/index.html/">Physical activity and health</a>
             </li>
-
             <li>
                 <span class="icon stretch-icon"></span>
                 <a href="https://www.heart.org/en/healthy-living/fitness/fitness-basics/flexibility-exercise-stretching/">Stretching exercises</a>
             </li>
-
             <li>
                 <span class="icon strength-icon"></span>
                 <a href="https://www.heart.org/en/healthy-living/fitness/fitness-basics/strength-and-resistance-training-exercise">Strength training</a>
             </li>
-
             <li>
                 <span class="icon cardio-icon"></span>
                 <a href="https://www.health.harvard.edu/exercise-and-fitness/interval-training-for-a-stronger-heart">Cardiovascular training</a>
             </li>
-
             <li>
                 <span class="icon yoga-icon"></span>
                 <a href="https://www.self.com/gallery/power-yoga-workout">Yoga workout</a>
@@ -75,29 +70,21 @@
         </ul>
     </nav>
 </aside>
+
 <h1>Meal plan order form</h1>
-
-<p>
-Fill out the form as completely as possible and we will email you a weekly meal plan, customized
-for you—your lifestyle, your goals, and your personal needs.
-</p>
-
-<p><em>Asterisks (*) indicate required entries.</em></p>
+<p>Fill out the form as completely as possible and we will email you a weekly meal plan, customized for you—your lifestyle, your goals, and your personal needs.</p>
+<p><em>Asterisks (<span class="required">*</span>) indicate required entries.</em></p>
 
 <form>
-
 <fieldset>
     <legend>Tell us about yourself</legend>
-
-    <label>Full name *<br>
+    <label>Full name <span class="required">*</span><br>
         <input type="text" name="fullname" required>
     </label><br><br>
-
-    <label>Email *<br>
+    <label>Email <span class="required">*</span><br>
         <input type="email" name="email" required>
     </label><br><br>
-
-    <label>Gender *<br>
+    <label>Gender <span class="required">*</span><br>
         <select name="gender" required>
             <option value="">Select a gender</option>
             <option>Male</option>
@@ -105,15 +92,12 @@ for you—your lifestyle, your goals, and your personal needs.
             <option>Non-Binary</option>
         </select>
     </label><br><br>
-
-    <label>Height *<br>
+    <label>Height <span class="required">*</span><br>
         <input type="text" name="height" placeholder="Example: 5ft, 6in" required>
     </label><br><br>
-
-    <label>Weight *<br>
+    <label>Weight <span class="required">*</span><br>
         <input type="text" name="weight" placeholder="Example: 145lbs" required>
     </label><br><br>
-
     <label>Age<br>
         <select name="age">
             <option value="">Select your age</option>
@@ -124,57 +108,43 @@ for you—your lifestyle, your goals, and your personal needs.
             <option>70+</option>
         </select>
     </label>
-
 </fieldset>
-
-<br>
-
 
 <fieldset>
     <legend>Lifestyle and goals</legend>
-
     <p>Which currently matches your present lifestyle?</p>
-
-    <label><input type="radio" name="lifestyle" value="active" checked> Active</label><br>
-    <label><input type="radio" name="lifestyle" value="moderate"> Moderate</label><br>
-    <label><input type="radio" name="lifestyle" value="sedentary"> Sedentary</label><br><br>
+    <div class="option-row">
+        <label><input type="radio" name="lifestyle" value="active" checked> Active</label>
+        <label><input type="radio" name="lifestyle" value="moderate"> Moderate</label>
+        <label><input type="radio" name="lifestyle" value="sedentary"> Sedentary</label>
+    </div>
 
     <p>What are your weight goals?</p>
-
-    <label><input type="radio" name="goal" value="gain" checked> Gain</label><br>
-    <label><input type="radio" name="goal" value="lose"> Lose</label><br>
-    <label><input type="radio" name="goal" value="maintain"> Maintain</label>
-
+    <div class="option-row">
+        <label><input type="radio" name="goal" value="gain" checked> Gain</label>
+        <label><input type="radio" name="goal" value="lose"> Lose</label>
+        <label><input type="radio" name="goal" value="maintain"> Maintain</label>
+    </div>
 </fieldset>
-
-<br>
-
 
 <fieldset>
     <legend>Food preferences and restrictions</legend>
-
     <p>Do you have any dietary restrictions? (select all that apply)</p>
-
-    <label><input type="checkbox" name="diet" value="vegetarian"> Vegetarian</label><br>
-    <label><input type="checkbox" name="diet" value="glutenfree"> Gluten-free</label><br>
-    <label><input type="checkbox" name="diet" value="kosher"> Kosher</label><br>
-    <label><input type="checkbox" name="diet" value="lowsalt"> Low salt</label><br><br>
-
-    <label><input type="checkbox" name="diet" value="other"> Other, please explain:</label>
-    <br>
-    <textarea name="othertext" rows="4" cols="40"></textarea>
-
+    <div class="option-row">
+        <label><input type="checkbox" name="diet" value="vegetarian"> Vegetarian</label>
+        <label><input type="checkbox" name="diet" value="glutenfree"> Gluten-free</label>
+        <label><input type="checkbox" name="diet" value="kosher"> Kosher</label>
+        <label><input type="checkbox" name="diet" value="lowsalt"> Low salt</label>
+        <label><input type="checkbox" name="diet" value="other"> Other, please explain:
+            <textarea name="othertext" rows="2" cols="20"></textarea>
+        </label>
+    </div>
 </fieldset>
-
-<br>
-
 
 <fieldset class="button-group">
     <button type="submit" class="btn base-btn submit-btn">Submit</button>
     <button type="reset" class="btn base-btn reset-btn">Reset</button>
 </fieldset>
-
 </form>
-
 </body>
 </html>
