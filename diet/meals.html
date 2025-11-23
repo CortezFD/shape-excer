@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Shape Up! | Meal Plan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.html.css">
+    <title>Shape Up! | Calorie Counter</title>
 </head>
-
 <body>
-	<main>
-	    <h1>Meal Plan</h1>
-		<h2>Under Construction</h2>	    
-	</main>
-</body>
-</html>
+    <header>
+        <a href="../index.html">
+            <img src="../images/shape_up_logo.png" alt="Shape Up Logo">
+        </a>
+        <h1 id="shapeuptext">Shape Up!</h1>
+        <h2 id="mainhead">Find the best fit for you</h2>
+    </header>
+
+    <nav class="navbar" id="navsubmenu">
+        <input type="checkbox" id="checkbox-toggle">
+        <label for="checkbox-toggle" class="menu-btn"></label>
+        <ul class="menu">
+            <li><a class="clr" href="../index.html">Home</a></li>
+            <li><a class="clr current" href="#">Strength Training</a></li>
+            <li><a class="clr" href="../cardio/cardio.html">Cardio Exercises</a></li>
+            <li class="submenu-item">
+                <a class="clr" href="#">Stress Relief <small>&#9660;</small></a>
+                <ul class="submenu">
+                    <li><a class="clr" href="../stress/stress.html">What is Stress?</a></li>
+                    <li><a class="clr" href="../stress/tips.html">5 Helpful Tips</a></li>
+                    <li><a class="clr" href="../stress/meditate.html">Meditation</a></li>
+                    <li><a class="clr" href="../stress/vipassana.html">Vipassana</a></li>
+                </ul>
+            </li>
+            <li class="submenu-item">
+                <a class="clr" id="bord" href="#">Healthy Diets <small>&#9660;</small></a>
+                <ul class="submenu">
+                    <li><a class="clr" href="../diet/diet.html">Why a Healthy Diet?</a></li>
+                    <li><a class="clr" href="../diet/meals.html">Plan Your Meals</a></li>
+                    <li><a class="clr" href="../diet/calories.html">Count Your Calories</a></li>
+                    <li><a class="clr" href="../diet/bmi.html">Calculate Your BMI</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <aside>
+            <h2 class="red-title">Additional resources</h2>
+
+            <nav>
+                <ul style="list-style-type:none; padding-left:0;">
+                    <li>
+                        <span class="icon run-icon"></span>
+                        <a href="https://www.cdc.gov/physical-activity-basics/benefits/index.html/">Physical activity and health</a>
+                    </li>
+
+                    <li>
+                        <span class="icon stretch-icon"></span>
+                        <a href="https://www.heart.org/en/healthy-living/fitness/fitness-basics/flexibility-exercise-stretching/">Stretching exercises</a>
+                    </li>
+
+                    <li>
+                        <span class="icon strength-icon"></span>
+                        <a href="https://www.heart.org/en/healthy-living/fitness/fitness-basics/strength-and-resistance-training-exercise">Strength training</a>
+                    </li>
+
+                    <li>
+                        <span class="icon cardio-icon"></span>
+                        <a href="https://www.health.harvard.edu/exercise-and-fitness/interval-training-for-a-stronger-heart">Cardiovascular training</a>
+                    </li>
+
+                    <li>
+                        <span class="icon yoga-icon"></span>
+                        <a href="https://www.self.com/gallery/power-yoga-workout">Yoga workout</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
