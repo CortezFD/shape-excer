@@ -209,7 +209,7 @@ footer {
 }
 .stress-figure {
     float: left;
-    width: 43%; /* or auto */
+    width: 43%; 
 }
 
 .stress-figure .img-wrapper {
@@ -219,11 +219,11 @@ footer {
 
 .stress-figure img {
     display: block;
-    max-width: 120px; /* adjust as needed */
+    max-width: 120px; 
 }
 
 .stress-figure figcaption {
-    clear: left;       /* ensures caption goes below image */
+    clear: left;     
     font-weight: bold;
     border-bottom: 2px solid black;
     margin: 0.5em 0;
@@ -231,7 +231,7 @@ footer {
 }
 
 .stress-figure p {
-    overflow: hidden; /* wraps around floated image */
+    overflow: hidden; 
 }
 
 @media (min-width: 668px) {
