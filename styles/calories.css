@@ -6,13 +6,9 @@
 body {
     font-family: Arial, sans-serif;
     width: 100%;
-    width: 800px;
+    max-width: 900px;
     margin: auto;
     font-size: 1.2vw;
-}
-
-main {
-    display: none !important;
 }
 
 header {
@@ -35,21 +31,15 @@ header h1 {
     color: steelblue;
 }
 
-div {
-    width: 100%;
-}
-
 .navbar {
     width: 100%;
     background-color: steelblue;
-    display: block;
     position: relative;
 }
 
 nav {
-    max-width: 800px;
+    width: 100%;
     margin: 0 auto;
-    flex-wrap: wrap;
 }
 
 .navbar ul {
@@ -113,6 +103,7 @@ aside {
     padding: 1em 0.5em;
     width: 30%;
     margin: 0;
+    display: none;
 }
 
 aside ul {
@@ -137,9 +128,7 @@ footer {
     background-color: steelblue;
     text-align: center;
     text-decoration: none;
-    border-width: 2px;
-    border-style: solid;
-    border-color: white;
+    border: 2px solid white;
     border-radius: 7px;
     padding: 0.5em;
 }
@@ -157,7 +146,7 @@ footer {
 }
 
 .cal-table {
-    width:65%;
+    width: 100%;
     border: black 2px solid;
     border-collapse: collapse;
     margin-bottom: 1em;
@@ -181,21 +170,8 @@ footer {
 }
 
 .content-wrap {
-    display: flex;
-    align-items: flex-start;
-    gap: 1em;
+    display: block;
     margin-top: 1em;
-}
-
-.table-area {
-    width: 65%;
-}
-
-
-
-
-.red-title {
-    color: red;
 }
 
 aside ul li {
@@ -216,14 +192,16 @@ aside ul li {
 .strength-icon { background-image: url("../images/strength-icon.png"); }
 .cardio-icon { background-image: url("../images/cardio-icon.png"); }
 .yoga-icon { background-image: url("../images/yoga-icon.png"); }
+
 @media (min-width: 668px) {
+
     html {
-        width: 800px;
+        width: 900px;
         margin: auto;
     }
 
     .menu {
-        display: flex;
+        display: flex !important;
         flex-direction: row;
         justify-content: space-around;
         position: static;
@@ -231,7 +209,7 @@ aside ul li {
 
     .menu-btn,
     #checkbox-toggle {
-        display: none;
+        display: none !important;
     }
 
     .submenu {
@@ -244,7 +222,22 @@ aside ul li {
     .menu li:hover > .submenu {
         display: flex;
     }
+
+    .content-wrap {
+        display: flex;
+        align-items: flex-start;
+        gap: 1em;
+    }
+
+    .table-area {
+        width: 65%;
+    }
+
     aside {
-        display: none;
+        display: block;
+    }
+
+    .cal-table {
+        width: 100%;
     }
 }
