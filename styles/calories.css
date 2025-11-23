@@ -146,7 +146,7 @@ footer {
 }
 
 .cal-table {
-    width: 100%;
+    width: 65%;
     border: black 2px solid;
     border-collapse: collapse;
     margin-bottom: 1em;
