@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.meditation-video {
+    margin: 1em 0;
+    border-radius: 10px;
+    border: 2px solid steelblue;
+}
+
+audio {
+    display: block;
+    width: 100%;
+    margin: 0.7em 0;
+}
