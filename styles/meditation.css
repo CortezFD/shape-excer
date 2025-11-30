@@ -15,3 +15,13 @@ audio {
 #paddingmedi {
     padding-left: 0.5em;
 }
+#bord {
+    background-color: steelblue;
+    text-align: center;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 7px;
+    padding: 0.5em;
+}
