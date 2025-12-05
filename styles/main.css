@@ -17,7 +17,9 @@ header {
     padding: 0.5em;
     background-image: linear-gradient(to top, lightsteelblue, white);
 }
-
+#quotep {
+    padding-left: 3em;
+}
 header img {
     float: left;
     margin: -10px 1em 0 -10px;
