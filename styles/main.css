@@ -8,6 +8,8 @@ body {
     width: 100%;
     margin: auto;
     font-size: 1.2vw;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 header {
@@ -126,7 +128,7 @@ nav {
 }
 
 main {
-    flex-direction: column;
+    width: 100%;
 }
 
 p {
@@ -198,12 +200,12 @@ figure.stress-figure figcaption {
 }
 
 aside {
-    float: right;
+    width: 100%;
+    margin: 1em 0;
+    float: none;
     border: 2px solid steelblue;
     border-radius: 25px;
     padding: 1em 0.5em;
-    width: 30%;
-    margin: 1em 0;
 }
 
 aside ul {
@@ -249,25 +251,28 @@ footer {
 }
 
 @media (min-width: 668px) {
-    html {
-        width: 700px;
+    body {
+        max-width: 700px;
         margin: auto;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-areas:
+            "main aside";
+        column-gap: 1em;
     }
 
     main {
-        width: 70%;
-        float: left;
+        grid-area: main;
     }
 
     aside {
-        width: 30%;
-        float: right;
+        grid-area: aside;
         margin-top: 1em;
     }
 
     .menu {
-        display: flex;
-        flex-direction: row;
+        display: grid !important;
+        grid-auto-flow: column;
         justify-content: space-around;
         position: static;
         background-color: steelblue;
@@ -352,7 +357,6 @@ textarea {
 }
 
 .button-group {
-    border: ;
     text-align: left;
 }
 
@@ -375,6 +379,7 @@ input::placeholder {
 fieldset label {
     margin-right: 1em;
 }
+
 input[type="radio"]:checked {
     accent-color: blue;
 }
