@@ -8,8 +8,6 @@ body {
     width: 100%;
     margin: auto;
     font-size: 1.2vw;
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 header {
@@ -125,6 +123,12 @@ nav {
 
 .menu li:hover > .submenu {
     display: flex;
+}
+
+.wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 main {
@@ -251,7 +255,8 @@ footer {
 }
 
 @media (min-width: 668px) {
-    body {
+
+    .wrapper {
         max-width: 700px;
         margin: auto;
         display: grid;
