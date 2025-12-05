@@ -266,7 +266,7 @@ footer {
         max-width: 900px;
         margin: auto;
         display: grid;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 65% 33%;
         grid-template-areas:
             "main aside";
         column-gap: 1em;
