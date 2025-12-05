@@ -6,6 +6,7 @@
 body {
     font-family: Arial, sans-serif;
     width: 100%;
+    width: 900px;
     margin: auto;
     font-size: 16px;
 }
@@ -205,7 +206,7 @@ figure.stress-figure figcaption {
 
 aside {
     width: 100%;
-    margin: 1em 0;
+    margin: 22em 0;
     float: none;
     border: 2px solid steelblue;
     border-radius: 25px;
