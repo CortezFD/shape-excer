@@ -30,6 +30,10 @@ header h1 {
     font-size: 3em;
     color: steelblue;
 }
+h3 {
+    padding-left: 0.5em;
+    color: maroon;
+}
 
 @font-face {
     font-family: "American Captain";
